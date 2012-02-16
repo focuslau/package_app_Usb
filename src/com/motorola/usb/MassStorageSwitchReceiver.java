@@ -21,24 +21,31 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.Context;
 
+
 import android.util.Log;
+import java.io.File;
+import java.io.FileInputStream;
+import android.text.TextUtils;
 
 public class MassStorageSwitchReceiver extends BroadcastReceiver {
 	
     private static final String TAG = "OutgoingCallNotifyReceiver";
+    private File mCurrentStateFile;
 
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.e(TAG,"MassStorageSwitchReceiver");
     	if(intent.getAction().equals(UsbService.ACTION_MASS_STORAGE_SWICTH_BUTTON)) {
+
             int currentUsbModeIndex = UsbSettings.readCurrentMode(context);
+            Log.e(TAG,"currentUsbModeIndex -- " + currentUsbModeIndex);
+
             currentUsbModeIndex = 
                 currentUsbModeIndex == UsbService.USB_MODE_MSC ? UsbService.USB_MODE_NONE : UsbService.USB_MODE_MSC;
     	    Intent myIntent = new Intent(UsbService.ACTION_MODE_SWITCH_FROM_UI);
             myIntent.putExtra(UsbService.EXTRA_MODE_SWITCH_MODE, currentUsbModeIndex);
             context.sendBroadcast(myIntent);
+
     	}
-        
-        
     }
 }

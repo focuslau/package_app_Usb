@@ -81,10 +81,11 @@
 <!-- end of status_bar_latest_event_content_large_icon.xml -->
 
     <!-- lp added to toggle usb mass storage -->
-	<LinearLayout  android:layout_height="40dp"
-		android:id="@+id/owner_button" 
+	<LinearLayout
+		android:id="@+id/owner_button"
+		style="@style/NotificationButton"
 		android:layout_width="wrap_content"
-		android:background="@drawable/toggle_selector"
+		android:layout_height="match_parent"
 		android:padding="0dp"
 		android:clickable="true">
 		<ImageView android:src="@drawable/low_temp_point"
@@ -99,6 +100,7 @@
 			android:layout_width="wrap_content"
 			android:textColor="#FFFFFFFF"
 			android:layout_weight="1" 
+			android:paddingRight="10dp"
                         android:gravity="center|left"
                         android:text="@string/mass_on" />
 	</LinearLayout>

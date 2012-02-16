@@ -105,6 +105,8 @@ public class UsbService extends Service
 
     //lanpeng add 10:40
     public static final String ACTION_MASS_STORAGE_SWICTH_BUTTON = "android.intent.action.NOTIFICATION_MASS_STORAGE_SWICTH";
+    public static final String ACTION_USB_CONNECTED = "android.intent.action.USB_CONNECTED";
+    public static final String ACTION_USB_DISCONNECTED = "android.intent.action.USB_DISCONNECTED";
 
     /*
      * Mode information
@@ -224,10 +226,11 @@ public class UsbService extends Service
     private boolean mPreparingUms = false;
 
     private UsbListener mUsbListener;
-    private File mCurrentStateFile;
+    private static File mCurrentStateFile;
     private Notification mNotification;
     private PendingIntent mModeSelectionIntent;
     private Timer mWaitForDevCloseTimer;
+    private Context mContext;
 
     private ITelephony mPhoneService;
     private StorageManager mStorageManager;
@@ -302,7 +305,11 @@ public class UsbService extends Service
             } else if (action.equals(ACTION_TETHERING_TOGGLED)) {
                 int state = intent.getIntExtra(EXTRA_TETHERING_STATE, 0);
                 handleUsbTetheringToggled(state != 0);
-            }
+            }else if(action.equals(ACTION_USB_CONNECTED)) {
+		Log.d(TAG,"ACTION_USB_CONNECTED!!!");
+	    }else if(action.equals(ACTION_USB_DISCONNECTED)) {
+		Log.d(TAG,"ACTION_USB_DISCONNECTED!!!");
+	    }
         }
     };
 
@@ -362,6 +369,7 @@ public class UsbService extends Service
         Log.d(TAG, "onCreate()");
         super.onCreate();
 
+	mContext = this;
         updateModeMapOverrides();
 
         UsbSettings.writeMode(this, -1, false);
@@ -373,18 +381,20 @@ public class UsbService extends Service
         intentFilter.addAction(ACTION_MODE_SWITCH_FROM_UI);
         intentFilter.addAction(ACTION_MODE_SWITCH_FROM_ATCMD);
         intentFilter.addAction(ACTION_TETHERING_TOGGLED);
+        intentFilter.addAction(ACTION_USB_DISCONNECTED);
+        intentFilter.addAction(ACTION_USB_CONNECTED);
         registerReceiver(mUsbServiceReceiver, intentFilter);
 
         if (getResources().getBoolean(R.bool.show_connection_notification)) {
             mNotification = new Notification();
-            mNotification.icon = com.android.internal.R.drawable.stat_sys_data_usb;
+            mNotification.icon = R.drawable.stat_sys_data_usb;
             mNotification.when = 0;
             mNotification.flags = Notification.FLAG_ONGOING_EVENT;
 
             //自定义界面
             Log.d(TAG, "-------------------------自定义界面");
             RemoteViews rv = new RemoteViews(getPackageName(), R.layout.usb_mass_storage_notification);  
-            rv.setImageViewResource(R.id.icon, com.android.internal.R.drawable.stat_sys_data_usb); 
+            rv.setImageViewResource(R.id.icon, R.drawable.stat_sys_data_usb); 
 
             mNotification.contentView = rv; 
 
@@ -407,14 +417,23 @@ public class UsbService extends Service
         new Thread(mUsbListener, UsbListener.class.getName()).start();
         mUEventObserver.startObserving("DEVPATH=/devices/virtual/misc/usbnet_enable");
 
-        String stateFileName = getResources().getString(R.string.current_usb_state_file_name);
+	String state = readStateFromFile(this);
+        if (!state.isEmpty()) {
+            setInitialModeFromState(state);
+        }
+    }
+
+    public static String readStateFromFile(Context context) {
+
+        String stateFileName = context.getResources().getString(R.string.current_usb_state_file_name);
+	Log.d(TAG, "usb state file location : " + stateFileName);
         if (!TextUtils.isEmpty(stateFileName)) {
             mCurrentStateFile = new File(stateFileName);
             String state = readUsbStateFile();
-            if (!state.isEmpty()) {
-                setInitialModeFromState(state);
-            }
+            Log.d(TAG, "Usb State from File is : " + state);
+            return state;
         }
+        return "";
     }
 
     @Override
@@ -803,7 +822,12 @@ public class UsbService extends Service
                         setImageViewResource(R.id.stat_mass, R.drawable.low_temp_point);
                     mStorageManager.disableUsbMassStorage();
                 }
-                mNotifManager.notify(mNotification.icon, mNotification);
+
+		String state = readStateFromFile(mContext);
+		Log.e(TAG,"state -- " + state);
+		if(state.equals("disconnected") == false) {
+                	mNotifManager.notify(mNotification.icon, mNotification);
+		}
                 sendBroadcast(new Intent(enable ? ACTION_ENTER_MSC : ACTION_EXIT_MSC));
             }
         });
@@ -839,6 +863,7 @@ public class UsbService extends Service
         }
 
         if (visible) {
+
             if (forceDefaultSound) {
                 mNotification.defaults = mNotification.defaults | Notification.DEFAULT_SOUND;
             } else {
@@ -989,9 +1014,11 @@ public class UsbService extends Service
 
     public void handleGetDescriptor() {
         Log.d(TAG, "handleGetDescriptor()");
-        mUsbCableAttached = true;
+        
 
+        mUsbCableAttached = true;
         int currentMode = getCurrentUsbMode();
+
         setUsbConnectionNotificationVisibility(true, true);
         enableInternalDataConnectivity(currentMode != USB_MODE_MODEM);
         sendBroadcast(new Intent(ACTION_CABLE_ATTACHED));
@@ -1110,7 +1137,7 @@ public class UsbService extends Service
         }
     }
 
-    private String readUsbStateFile() {
+    private static String readUsbStateFile() {
         String state="";
         if (mCurrentStateFile == null) {
             return state;
@@ -1142,6 +1169,9 @@ public class UsbService extends Service
         }
         if (mode != -1) {
             Log.d(TAG, "Initial mode read from state file=" + state);
+            if(state.contains("charge")) {
+		setUsbConnectionNotificationVisibility(true,true);
+	    }
             UsbSettings.writeMode(UsbService.this, mode, false);
             handleUsbEvent(EVENT_CABLE_INSERTED);
         } else {

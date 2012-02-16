@@ -1,0 +1,1726 @@
+--------- beginning of /dev/log/main
+I/pds_perm_fix.sh( 1397): mount: mounting /dev/block/loop0 on /pds failed: Invalid argument
+I/pds_perm_fix.sh( 1397): Mounted PDS only.
+I/cm      ( 1409): Welcome to Android 4.0.3 / CyanogenMod-9.0.0-RC0-Sunfire-KANG 
+I/cm      ( 1410):                                                 _  
+I/cm      ( 1411):  __ __ _ ___  _ _  __  ___  __ _ _  _  _  __  __)) 
+I/cm      ( 1412): ((_ \(/'((_( ((\( ((_)((_( (('((\( ((`1( ((_)((_(  
+I/cm      ( 1413):      ))                 _)) 
+I/cm      ( 1414):   
+I/DEBUG   ( 1419): debuggerd: Feb 13 2012 23:26:40
+--------- beginning of /dev/log/system
+I/Vold    ( 1416): Vold 2.1 (the revenge) firing up
+I/Netd    ( 1418): Netd 1.0 starting
+D/Vold    ( 1416): Volume sdcard-ext state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.0 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.2 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.3 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.4 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.5 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.6 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume usbdisk_1.7 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1416): Volume sdcard state changing 0 (No-Media) -> 2 (Pending)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 1, PARTN 1
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 2, PARTN 2
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 3, PARTN 3
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 4, PARTN 4
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 5, PARTN 5
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 6, PARTN 6
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 7, PARTN 7
+D/Vold    ( 1416): Volume sdcard state changing 2 (Pending) -> 1 (Idle-Unmounted)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 8, PARTN 8
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 9, PARTN 9
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 10, PARTN 10
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 11, PARTN 11
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 12, PARTN 12
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 13, PARTN 13
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 14, PARTN 14
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 15, PARTN 15
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 16, PARTN 16
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 17, PARTN 17
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 18, PARTN 18
+W/Vold    ( 1416): Duplicate state (1)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 19, PARTN 19
+W/Vold    ( 1416): Duplicate state (1)
+D/Vold    ( 1416): Volume sdcard-ext state changing 0 (No-Media) -> 2 (Pending)
+D/DirectVolume( 1416): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 33, PARTN 1
+D/Vold    ( 1416): Volume sdcard-ext state changing 2 (Pending) -> 1 (Idle-Unmounted)
+D/        ( 1467): MOTO_PUPD: mot_boot_mode
+D/        ( 1467): MOTO_PUPD: mot_boot_mode : normal
+E/Netd    ( 1418): Unable to bind netlink socket: No such file or directory
+E/Netd    ( 1418): Unable to open quota2 logging socket
+I/        ( 1423): ServiceManager: 0x18910
+E/Whisper ( 1509): No Vectors installed (errno = No such file or directory)
+E/Whisper ( 1509): Failed to open file (errno = No such file or directory)
+E/Whisper ( 1509): accyAuthInit() failed
+I/usbd    ( 1504): main(): Start usbd - version 1.2
+I/usbd    ( 1504): main(): Initializing uevent_socket 
+I/usbd    ( 1504): main(): Initializing usb_device_mode 
+I/usbd    ( 1504): main(): Phone was started up in normal mode 
+I/usbd    ( 1504): main(): Initializing usbd socket 
+I/usbd    ( 1504): usbd_get_cable_status(): cable_type = usb
+I/usbd    ( 1504): 
+I/usbd    ( 1504): usbd_get_cable_status(): current usb_online = 1
+D/AndroidRuntime( 1422): 
+D/AndroidRuntime( 1422): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 1422): CheckJNI is OFF
+I/touchpad( 1505): /system/bin/touchpad: Factory flag is OFF
+I/touchpad( 1505): /system/bin/touchpad: Getting firmware version
+I/touchpad( 1505): /system/bin/touchpad: Version is 22
+I/touchpad( 1505): /system/bin/touchpad: Doing complete upgrade, if needed
+I/touchpad( 1505): /system/bin/touchpad: Initiating firmware upload
+I/mdm_panicd( 1511): Subscribed to RDS_MSG_ID_UNSOL_IPC_FAILURE
+I/BATTD   ( 1503): Failed to create directory /pds/public/battd/
+I/AKMD2   ( 1507): AK8975/B for Android v1.1.0.1216 (Library: v1.2.0.1217) started.
+I/touchpad( 1505): manageFirmware: Upgrade directory does not exist. No need to upgrade
+I/touchpad( 1505): /system/bin/touchpad: Checking Upgrade directory(rc=0)
+I/touchpad( 1505): manageConfig: Upgrade directory does not exist. No need to upgrade
+I/BATTD   ( 1503): Battd USB INSERT = Success
+I/BATTD   ( 1503): Battd Init = Success
+I/BATTD   ( 1503): RTC Log SBCM Init=7938
+I/BATTD   ( 1503): SBCM_GLUE: UNABLE TO OPEN FILE /config/public/battd/batt_offset_data
+I/BATTD   ( 1503): SBCM_GLUE: UNABLE TO OPEN FILE /pds/public/battd/batt_offset_data
+I/BATTD   ( 1503): SBCM_GLUE: UNABLE TO OPEN FILE /pds/public/batt_offset_data
+I/BATTD   ( 1503): SBCM_GLUE: BATT DATA RETRIVAL FAILURE
+I/BATTD   ( 1503): SBCM_GLUE: CutOff Threshold is 3050 mV
+I/BATTD   ( 1503): SBCM_GLUE_EVENT_INIT=Initialization
+I/BATTD   ( 1503): SBCM_GLUE ****Battery Phasing start ****
+I/BATTD   ( 1503): SBCM_GLUE offset_batti = 0
+I/BATTD   ( 1503): SBCM_GLUE slope_batti = 128
+I/BATTD   ( 1503): SBCM_GLUE offset_chrgi = 0
+I/BATTD   ( 1503): SBCM_GLUE slope_chrgi = 128
+I/BATTD   ( 1503): SBCM_GLUE offset_battp = 0
+I/BATTD   ( 1503): SBCM_GLUE slope_battp = 128
+I/BATTD   ( 1503): SBCM_GLUE offset_bp = 0
+I/BATTD   ( 1503): SBCM_GLUE slope_bp = 128
+I/BATTD   ( 1503): SBCM_GLUE offset_battt = 0
+I/BATTD   ( 1503): SBCM_GLUE slope_battt = 128
+I/BATTD   ( 1503): SBCM_GLUE offset_chrgv = 0
+I/BATTD   ( 1503): SBCM_GLUE slope_chrgv = 128
+I/BATTD   ( 1503): SBCM_GLUE ****Battery Phasing end ****
+I/BATTD   ( 1503): SBCM_GLUE temp safe = 333
+I/BATTD   ( 1503): SBCM_GLUE temp warn = 338
+I/BATTD   ( 1503): SBCM_GLUE temp cool = 341
+I/BATTD   ( 1503): SBCM_GLUE temp phased safe raw = 0x4b
+I/BATTD   ( 1503): SBCM_GLUE temp phased warn raw = 0x3f
+I/BATTD   ( 1503): SBCM_GLUE temp phased cool raw = 0x3a
+I/BATTD   ( 1503): SBCM_GLUE temp safe unphased raw = 0x4b
+I/BATTD   ( 1503): SBCM_GLUE temp warn unphased raw = 0x3f
+I/BATTD   ( 1503): SBCM_GLUE temp cool unphased raw = 0x3a
+I/touchpad( 1505): /system/bin/touchpad: Trying to send default configuration (/etc/touchpad/22).
+I/touchpad( 1505): manageSpecificConfig(): Found version:  22
+I/BATTD   ( 1503): Coulomb Counter Enabled=1
+I/BATTD   ( 1503): SBCM_ALGORITHM_task_handler()return=686979
+I/BATTD   ( 1503): while(SBCM_GLUE_atod_pending)=2
+I/BATTD   ( 1503): SBCM_ALGORITHM_task_handler()return=0xA7BBD
+I/BATTD   ( 1503): while(SBCM_GLUE_atod_pending)=4
+I/BATTD   ( 1503): SBCM_GLUE ****Battery BRT Read ****
+I/touchpad( 1505): manageSpecificConfig(): File /etc/touchpad/22/touchpad.cfg is opened!
+I/touchpad( 1505): doConfig: Enter
+I/touchpad( 1505): doConfig: Handling OBP configuration
+I/SurfaceFlinger( 1421): SurfaceFlinger is starting
+I/SurfaceFlinger( 1421): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+I/touchpad( 1505): getConfigField8: GEN_POWERCONFIG_T7->IDLEACQINT = 0x0A(10)
+I/touchpad( 1505): getConfigField8: GEN_POWERCONFIG_T7->ACTVACQINT = 0x11(17)
+I/touchpad( 1505): getConfigField8: GEN_POWERCONFIG_T7->ACTV2IDLETO = 0x00(0)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->CHRGTIME = 0x0A(10)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->ATCHDRIFT = 0x00(0)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->TCHDRIFT = 0x0A(10)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->DRIFTST = 0x00(0)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->TCHAUTOCAL = 0x00(0)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->SYNC = 0x00(0)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->ATCHCALST = 0x05(5)
+I/touchpad( 1505): getConfigField8: GEN_ACQUISITIONCONFIG_T8->ATCHCALSTHR = 0x00(0)
+I/mdm_panicd( 1511): Baseband version: N_01.28.07R
+I/mdm_panicd( 1511): RDS Socket established gUnsolicitedFd = 4
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->CTRL = 0x0B(11)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->XORIGIN = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->YORIGIN = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->XSIZE = 0x13(19)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->YSIZE = 0x0B(11)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->AKSCFG = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->BLEN = 0x10(16)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->TCHTHR = 0x2C(44)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->TCHDI = 0x02(2)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->ORIENT = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->MRGTIMEOUT = 0x19(25)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->MOVHYSTI = 0x0A(10)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->MOVHYSTN = 0x05(5)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->MOVFILTER = 0x3E(62)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->NUMTOUCH = 0x05(5)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->MRGHYST = 0x05(5)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->MRGTHR = 0x05(5)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->AMPHYST = 0x05(5)
+I/touchpad( 1505): getConfigField16: TOUCH_MULTITOUCHSCREEN_T9 ->XRANGE = 0x0000(0)
+I/touchpad( 1505): getConfigField16: TOUCH_MULTITOUCHSCREEN_T9 ->YRANGE = 0x0000(0)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->XLOCLIP = 0x03(3)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->XHICLIP = 0xF8(248)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->YLOCLIP = 0x1C(28)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->YHICLIP = 0x11(17)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->XEDGECTRL = 0xED(237)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->XEDGEDIST = 0x25(37)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->YEDGECTRL = 0x83(131)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->YEDGEDIST = 0xDC(220)
+I/touchpad( 1505): getConfigField8: TOUCH_MULTITOUCHSCREEN_T9 ->JUMPLIMIT = 0x00(0)
+I/usbd    ( 1504): main(): Initial Cable State = Cable Attached
+I/usbd    ( 1504): main(): get event from usb_device_fd
+I/usbd    ( 1504): main(): devbuf: none:adb_enable:none:none
+I/usbd    ( 1504): rc: 25 usbd_curr_cable_status: 0
+I/usbd    ( 1504): main(): pcSwitchbuf = none
+I/usbd    ( 1504): main(): adbEnablebuf: adb_enable
+I/usbd    ( 1504): main(): tetheringEnablebuf: none
+I/usbd    ( 1504): main(): length = 5
+I/usbd    ( 1504): main(): enubuf: none
+I/usbd    ( 1504): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1504): main():  Spurious Cable Event, Ignore 
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->CTRL = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->XORIGIN = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->YORIGIN = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->XSIZE = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->YSIZE = 0x00(0)
+I/usbd    ( 1504): main(): get event from usb_device_fd
+I/usbd    ( 1504): main(): devbuf: none:none:none:get_desc
+I/usbd    ( 1504): rc: 23 usbd_curr_cable_status: 0
+I/usbd    ( 1504): main(): pcSwitchbuf = none
+I/usbd    ( 1504): main(): adbEnablebuf: none
+I/usbd    ( 1504): main(): tetheringEnablebuf: none
+I/usbd    ( 1504): main(): length = 9
+I/usbd    ( 1504): main(): enubuf: get_desc
+I/usbd    ( 1504): main(): received get_descriptor, enum in progress
+I/usbd    ( 1504): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1504): main():  Spurious Cable Event, Ignore 
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->AKSCFG = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->BLEN = 0x00(0)
+I/ftmipcd ( 1534): USBLAN interface not available
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->TCHTHR = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_KEYARRAY_T15->TCHDI = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->CTRL = 0x01(1)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->REPORTMASK = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->DIR = 0x30(48)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->INTPULLUP = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->OUT = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->WAKE = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->PWM = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->PERIOD = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->DUTY[0] = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->DUTY[1] = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->DUTY[2] = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_GPIOPWM_T19->DUTY[3] = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->CTRL = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->XLOGRIP = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->XHIGRIP = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->YLOGRIP = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->YHIGRIP = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->MAXTCHS = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->N/A = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->SZTHR1 = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->SZTHR2 = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->SHPTHR1 = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->SHPTHR2 = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCI_GRIPFACESUPPRESSION_T20->SUPEXTTO = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->CTRL = 0x05(5)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->N/A = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->N/A = 0x00(0)
+I/touchpad( 1505): getConfigField16: PROCG_NOISESUPPRESSION_T22->GCAFUL = 0x0000(0)
+I/touchpad( 1505): getConfigField16: PROCG_NOISESUPPRESSION_T22->GCAFLL = 0x0000(0)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->ACTVGCAFVALID = 0x08(8)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->NOISETHR = 0x14(20)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->N/A = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->FREQHOPSCALE = 0x00(0)
+I/usbd    ( 1504): main(): get event from usb_device_fd
+I/usbd    ( 1504): main(): devbuf: none:none:none:enumerated
+I/usbd    ( 1504): rc: 25 usbd_curr_cable_status: 0
+I/usbd    ( 1504): main(): pcSwitchbuf = none
+I/usbd    ( 1504): main(): adbEnablebuf: none
+I/usbd    ( 1504): main(): tetheringEnablebuf: none
+I/usbd    ( 1504): main(): length = 11
+I/usbd    ( 1504): main(): enubuf: enumerated
+I/usbd    ( 1504): main(): recieved enumerated
+I/usbd    ( 1504): main(): usbd_app_fd  = -1
+I/usbd    ( 1504): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1504): main():  Spurious Cable Event, Ignore 
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->FREQ[0] = 0x00(0)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->FREQ[1] = 0x07(7)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->FREQ[2] = 0x0D(13)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->FREQ[3] = 0x14(20)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->FREQ[4] = 0x19(25)
+I/touchpad( 1505): getConfigField8: PROCG_NOISESUPPRESSION_T22->IDLEGCAFVALID = 0x04(4)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->CTRL = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->XORIGIN = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->YORIGIN = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->XSIZE = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->YSIZE = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->N/A = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->BLEN = 0x00(0)
+I/touchpad( 1505): getConfigField16: TOUCH_PROXIMITY_T23->TCHTHR = 0x0000(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->TCHDI = 0x00(0)
+I/touchpad( 1505): getConfigField8: TOUCH_PROXIMITY_T23->AVERAGE = 0x00(0)
+I/touchpad( 1505): getConfigField16: TOUCH_PROXIMITY_T23->RATE = 0x0000(0)
+I/touchpad( 1505): getConfigField8: SPT_SELFTEST_T25->CTRL = 0x00(0)
+D/AndroidRuntime( 1539): 
+D/AndroidRuntime( 1539): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1539): CheckJNI is OFF
+I/touchpad( 1505): getConfigField8: SPT_SELFTEST_T25->CMD = 0x00(0)
+I/touchpad( 1505): getConfigField16: SPT_SELFTEST_T25->SIGLIM[0].UPSIGLIM = 0x2EE0(12000)
+I/touchpad( 1505): getConfigField16: SPT_SELFTEST_T25->SIGLIM[0].LOSIGLIM = 0x1B58(7000)
+I/BATTD   ( 1503): SBCM_GLUE ****BRT SUCCESS****
+D/dalvikvm( 1539): DexOpt: sleeping on flock(/cache/dalvik-cache/system@framework@apache-xml.jar@classes.dex)
+I/BATTD   ( 1503): File /data/battd/cc_data opened!
+I/touchpad( 1505): getConfigField16: SPT_SELFTEST_T25->SIGLIM[1].UPSIGLIM = 0x36B0(14000)
+I/touchpad( 1505): getConfigField16: SPT_SELFTEST_T25->SIGLIM[1].LOSIGLIM = 0x01F4(500)
+I/BATTD   ( 1503): File /data/battd/cc_data read 24 bytes, sequence:349
+I/BATTD   ( 1503): File /data/battd/cc_data_old opened!
+I/touchpad( 1505): getConfigField16: SPT_SELFTEST_T25->SIGLIM[2].UPSIGLIM = 0x0000(0)
+I/touchpad( 1505): getConfigField16: SPT_SELFTEST_T25->SIGLIM[2].LOSIGLIM = 0x0000(0)
+I/touchpad( 1505): getConfigField8: SPT_CTECONFIG_T28->CTRL = 0x00(0)
+I/BATTD   ( 1503): File /data/battd/cc_data_old read 24 bytes, sequence:350
+I/BATTD   ( 1503): File /data/battd/cc_data_old selected
+I/BATTD   ( 1503): Percentage from status file = 369274974
+I/BATTD   ( 1503): Voltage from status file = 3896
+I/BATTD   ( 1503): Sequence from status file = 350
+I/BATTD   ( 1503): SBCM_ALGORITHM_task_handler()return=0xA7B81
+I/BATTD   ( 1503): Timeout=10
+D/dalvikvm( 1539): DexOpt: sleeping on flock(/cache/dalvik-cache/system@framework@filterfw.jar@classes.dex)
+I/touchpad( 1505): getConfigField8: SPT_CTECONFIG_T28->CMD = 0x00(0)
+I/touchpad( 1505): getConfigField8: SPT_CTECONFIG_T28->MODE = 0x03(3)
+I/touchpad( 1505): getConfigField8: SPT_CTECONFIG_T28->IDLEGCAFDEPTH = 0x04(4)
+I/touchpad( 1505): getConfigField8: SPT_CTECONFIG_T28->ACTVGCAFDEPTH = 0x08(8)
+I/        ( 1424): ServiceManager: 0xf958
+I/touchpad( 1505): getConfigField8: SPT_CTECONFIG_T28->VOLTAGE = 0x07(7)
+I/BATTD   ( 1503): SBCM_GLUE ****Battery BRT Read ****
+D/        ( 1514): NvDdkDispBacklightTimeout() thread running
+D/        ( 1514): NVDDK error thread running
+D/        ( 1514): NvDdkDispBacklightTimeout() thread running
+D/        ( 1514): NVDDK error thread running
+I/        ( 1514): Enter motDsiSetup()..
+I/        ( 1514): 
+I/        ( 1514): enter motDsiDiscover
+I/        ( 1514): exit motDsiDiscover
+I/        ( 1514): 
+I/        ( 1514): Enter motDsiSetup()..
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiSetSpecialFunction (2)
+I/        ( 1514): detect_panel top
+I/        ( 1514): exit motDsiSetSpecialFunction
+I/        ( 1514): 
+I/        ( 1514): enter motDsiListModes
+I/        ( 1514): exit motDsiListModes
+I/        ( 1514): 
+I/        ( 1514): enter motDsiListModes
+I/        ( 1514): exit motDsiListModes
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+I/        ( 1514): enter motDsiGetParameter
+I/        ( 1514): exit motDsiGetParameter
+I/        ( 1514): 
+D/AudioMgrRIL( 1424): Requesting current call status from RDS
+D/AudioMgrRIL( 1424): RDS reports call not connected (callStatus = 0)
+D/AudioPostProcessor( 1424): AudioPostProcessor()
+D/AudioPostProcessor( 1424): Could not load beamformer parameters. Feature Disabled.
+D/AudioPostProcessor( 1424): No debug parameters in /data; checking ro.product.locale.region
+D/AudioPostProcessor( 1424): ro.product.locale.region value = CN
+D/AudioPostProcessor( 1424): /system/bin/ap_gain.bin file size is 50371
+D/AudioPostProcessor( 1424): Read format version 0x1808, content version 0x1800 from /system/bin/ap_gain.bin
+D/AudioPostProcessor( 1424): Successfully parsed parameters from /system/bin/ap_gain.bin
+D/AudioMsgHandler_CDMA( 1424): Create socket successful 16 
+I/touchpad( 1505): /system/bin/touchpad: done
+I/touchpad( 1505): /system/bin/touchpad: done
+I/BATTD   ( 1503): SBCM_GLUE ****BRT SUCCESS****
+I/BATTD   ( 1503): BM_BATT_DATA: status valid
+I/BATTD   ( 1503): BM_BATT_DATA: uid valid
+I/BATTD   ( 1503): BM_BATT_DATA: family_code = 137
+I/BATTD   ( 1503): BM_BATT_DATA: uid_lsb = 0
+I/BATTD   ( 1503): BM_BATT_DATA: uid_msb = 80
+I/BATTD   ( 1503): BM_BATT_DATA: page_2_checksum = 0
+I/BATTD   ( 1503): BM_BATT_DATA: page_3_checksum = 0
+I/BATTD   ( 1503): BM_BATT_DATA: cpyrght_vld = 1
+I/BATTD   ( 1503): SBCM CORE convert_rom_data: bcap= 1650, raw= 0xa5
+I/BATTD   ( 1503): BATTD_SetBattCapacity BATT CAP = 216279
+I/BATTD   ( 1503): SBCM_GLUE BATT CAP = 1650
+D/        ( 1514): NVRM_DAEMON(1011): master_dispatch_thread() running
+D/        ( 1514): NVRM_DAEMON(1103): pm_notifier_thread() running
+I/nvrm_daemon( 1502): NVRM_DAEMON(1011): master_dispatch_thread() running
+I/nvrm_daemon( 1502): NVRM_DAEMON(1103): pm_notifier_thread() running
+D/        ( 1514): NVRM_DAEMON(1011): master_dispatch_thread() running
+D/        ( 1514): nvrm_daemon: rt_exist from client: 0
+D/        ( 1514): nvrm_daemon: rt_exist to client: 1
+D/        ( 1514): NVRM_DAEMON(1011): master_dispatch_thread() running
+D/        ( 1421): NvGrFbDevOpen: Opened fb0 on disp 0 size 540x960 format 1 rate 64.000000
+I/nvrm_daemon( 1502): NVRM_DAEMON(1011): master_dispatch_thread() running
+I/nvrm_daemon( 1502): nvrm_daemon: rt_exist from client: 0
+I/nvrm_daemon( 1502): nvrm_daemon: rt_exist to client: 1
+I/nvrm_daemon( 1502): NVRM_DAEMON(1011): master_dispatch_thread() running
+D/libEGL  ( 1421): loaded /system/lib/egl/libGLES_android.so
+D/AudioHardwareMot( 1424): nvInitSetup done
+I/AudioFlinger( 1424): Loaded primary audio interface from LEGACY Audio HW HAL (audio)
+I/AudioFlinger( 1424): Using 'LEGACY Audio HW HAL' (audio.primary) as the primary audio interface
+I/AudioFlinger( 1424): Loaded a2dp audio interface from A2DP Audio HW HAL (audio)
+D/AudioHardwareMot( 1424): setMode(NORMAL)
+D/libEGL  ( 1421): loaded /system/lib/egl/libEGL_tegra.so
+I/CameraService( 1424): CameraService started (pid=1424)
+V/NvOmxCamera( 1424): HAL_getNumberOfCameras ++
+D/AudioHardwareMot( 1424): AudioHardwareMot::openOutputStream enter
+D/AudioHardwareMot( 1424): AudioStreamOutMot::set(0xfba0, 2, 0, 0 0 0)
+D/AudioHardwareMot( 1424): bufSize = 8192
+D/AudioHardwareMot( 1424): bufSize = 8192
+D/AudioHardwareMot( 1424): bufSize = 8192
+I/AudioFlinger( 1424): AudioFlinger's thread 0x10ca0 ready to run
+D/AudioHardwareMot( 1424): bufSize = 8192
+W/AudioFlinger( 1424): Thread AudioOut_1 cannot connect to the power manager service
+D/AudioHardwareMot( 1424): AudioStreamOutMot::standby called
+W/AudioFlinger( 1424): Thread AudioOut_1 cannot connect to the power manager service
+D/AudioHardwareMot( 1424): AudioStreamOutMot::setParameters() routing=2
+D/AudioHardwareMot( 1424): set output from 2 to 2
+D/AudioHardwareMot( 1424): [int android::AudioHardwareMot::audioSelectSpeakers(int)] enter with spkr = 0
+D/AudioHardwareMot( 1424): spkr1 = 0, spkr2 = 0
+D/AudioHardwareMot( 1424): Setting STDAC speakers to none
+D/AudioHardwareMot( 1424): configPostProcessor() called with accy = 9
+D/AudioPostProcessor( 1424): configPostProcessing() called, inputAccy= 40, outputAccy= 9, sampleRate= 44100, ringtoneMode= 0
+D/AudioPostProcessor( 1424): updatePostProcessor: disabling effects
+D/AudioPostProcessor( 1424): updatePostProcessor calling SuperAPI parser with: accy=0 config=0 SE_level_index=1
+D/AudioHardwareMot( 1424): Using FLUENCE_HIGH setting
+D/AudioMgrRIL( 1424): Sending accessory : 1
+D/AudioPostProcessor( 1424): slider opened, coeffs device for handset =0
+D/AudioHardwareMot( 1424): doRouting devs: stereo 0, mono 0, input 0. Chose speaker None (gain 0) mic None (gain 0x1c1c)
+D/CpcapAudio( 1424):  0x200 = 65
+D/CpcapAudio( 1424):  0x201 = 0
+D/CpcapAudio( 1424):  0x202 = 0
+D/CpcapAudio( 1424):  0x203 = 0
+D/CpcapAudio( 1424):  0x204 = 4
+D/CpcapAudio( 1424):  0x205 = 0
+D/CpcapAudio( 1424):  0x206 = 39c
+D/CpcapAudio( 1424):  0x207 = 0
+D/CpcapAudio( 1424):  0x208 = 0
+D/CpcapAudio( 1424):  0x209 = 0
+D/CpcapAudio( 1424):  0x20A = 0
+D/CpcapAudio( 1424):  0x20B = 0
+D/CpcapAudio( 1424):  0x20D = 30
+D/AudioHardwareMot( 1424): setVoiceVolume(0.067000) Setting in-call volume to 0 (available range is 0 to 7)
+D/AudioMgrRIL( 1424): setting volume, volume = 0
+D/AudioHardwareMot( 1424): setVoiceVolume(1.000000) Setting in-call volume to 7 (available range is 0 to 7)
+D/AudioMgrRIL( 1424): setting volume, volume = 7
+I/AudioPolicyService( 1424): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+D/libEGL  ( 1421): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+D/libEGL  ( 1421): loaded /system/lib/egl/libGLESv2_tegra.so
+I/SurfaceFlinger( 1421): EGL informations:
+I/SurfaceFlinger( 1421): # of configs : 56
+I/SurfaceFlinger( 1421): vendor    : Android
+I/SurfaceFlinger( 1421): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 1421): extensions: EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_NV_system_time EGL_ANDROID_image_native_buffer EGL_ANDROID_image_native_buffer 
+I/SurfaceFlinger( 1421): Client API: OpenGL ES
+I/SurfaceFlinger( 1421): EGLSurface: 8-8-8-8, config=0x3
+I/SurfaceFlinger( 1421): OpenGL informations:
+I/SurfaceFlinger( 1421): vendor    : NVIDIA Corporation
+I/SurfaceFlinger( 1421): renderer  : NVIDIA AP
+I/SurfaceFlinger( 1421): version   : OpenGL ES-CM 1.1
+I/SurfaceFlinger( 1421): extensions: GL_OES_byte_coordinates GL_OES_fixed_point GL_OES_single_precision GL_OES_read_format GL_OES_query_matrix GL_OES_compressed_paletted_texture GL_OES_matrix_palette GL_OES_extended_matrix_palette GL_OES_point_sprite GL_OES_point_size_array GL_OES_draw_texture GL_OES_matrix_get GL_OES_compressed_ETC1_RGB8_texture GL_OES_texture_cube_map GL_OES_framebuffer_object GL_OES_fbo_render_mipmap GL_OES_stencil8 GL_OES_rgb8_rgba8 GL_OES_vertex_half_float GL_OES_EGL_image GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_bgra GL_EXT_texture_format_BGRA8888 GL_ARB_texture_non_power_of_two
+I/SurfaceFlinger( 1421): GL_MAX_TEXTURE_SIZE = 2048
+I/SurfaceFlinger( 1421): GL_MAX_VIEWPORT_DIMS = 3839 x 3839
+I/SurfaceFlinger( 1421): flags = 00000000
+W/SurfaceFlinger( 1421): hwcomposer module not found
+I/BATTD   ( 1503): set_charge_voltage=4350
+I/BATTD   ( 1503): set_charge_current=500
+I/BATTD   ( 1503): set_charge_current=400
+D/libEGL  ( 1571): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  ( 1571): loaded /system/lib/egl/libEGL_tegra.so
+D/libEGL  ( 1571): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+D/libEGL  ( 1571): loaded /system/lib/egl/libGLESv2_tegra.so
+I/        ( 1514): enter motDsiSetSpecialFunction (3)
+I/        ( 1514): motDsiGetPinPolarities
+I/        ( 1514): enter motDsiSetSpecialFunction (1)
+I/        ( 1514): enter motDsiSetMode
+I/        ( 1514): enter motDsiSetPowerLevel
+I/        ( 1514): exit motDsiSetPowerLevel
+I/        ( 1514): 
+I/        ( 1514): enter motDsiSetPowerLevel
+I/        ( 1514): enter motDsiResume
+I/        ( 1514): *******motDsiPanelInit********* (0x40, 1 3 0)
+I/        ( 1514): *******motDsiPanelInit********* (dsiClock = 1)
+I/        ( 1514): exit motDsiPanelInit Done
+I/        ( 1514): 
+I/        ( 1514): exit motDsiResume
+I/        ( 1514): 
+I/        ( 1514): exit motDsiSetPowerLevel
+I/        ( 1514): 
+I/        ( 1514): odm_disp_cabc_thread is starting
+I/        ( 1514): odm_disp_cabc_thread running
+I/        ( 1514): odm_disp_cabc_thread is restarting err_cnt=0
+I/SamplingProfilerIntegration( 1422): Profiling disabled.
+I/Zygote  ( 1422): Preloading classes...
+D/dalvikvm( 1422): GC_EXPLICIT freed 36K, 90% free 409K/4096K, paused 1ms+1ms
+D/AndroidRuntime( 1539): Calling main entry com.android.commands.am.Am
+I/am      ( 1538): Error type 2
+I/am      ( 1538): android.util.AndroidException: Can't connect to activity manager; is the system running?
+I/am      ( 1538): 	at com.android.commands.am.Am.run(Am.java:99)
+I/am      ( 1538): 	at com.android.commands.am.Am.main(Am.java:80)
+I/am      ( 1538): 	at com.android.internal.os.RuntimeInit.finishInit(Native Method)
+I/am      ( 1538): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:238)
+I/am      ( 1538): 	at dalvik.system.NativeStart.main(Native Method)
+I/logwrapper( 1538): /system/bin/am terminated by exit(1)
+D/TextLayoutCache( 1422): Using debug level: 0 - Debug Enabled: 0
+W/Zygote  ( 1422): Class not found for preloading: android.media.AudioManager$2
+I/dalvikvm( 1422): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/MtpDeviceJNI( 1422): register_android_mtp_MtpDevice
+I/dalvikvm( 1422): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm( 1422): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+W/Zygote  ( 1422): Class not found for preloading: android.media.IRemoteControlClientDispatcher
+W/Zygote  ( 1422): Class not found for preloading: android.media.IRemoteControlClientDispatcher$Stub
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 198K, 83% free 722K/4096K, paused 3ms
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 206K, 75% free 1028K/4096K, paused 6ms
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 85K, 65% free 1455K/4096K, paused 8ms
+W/Zygote  ( 1422): Class not found for preloading: android.text.TextDirectionHeuristics$CharCount
+W/Zygote  ( 1422): Class not found for preloading: android.text.method.WordIterator$1
+I/dalvikvm( 1422): threadid=1: recursive native library load attempt (/system/lib/libwebcore.so)
+D/dalvikvm( 1422): No JNI_OnLoad found in /system/lib/libchromium_net.so 0x0, skipping init
+I/BATTD   ( 1503): Event from SBCM Driver=Coulomb Counter Calibration Interrupt
+I/BATTD   ( 1503): set_charge_current=500
+W/Zygote  ( 1422): Class not found for preloading: android.widget.EdgeGlow
+E/PhonePolicy( 1422): Could not preload class for phone policy: com.android.internal.policy.impl.PhoneWindow$ContextMenuCallback
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 270K, 59% free 1696K/4096K, paused 9ms
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 193K, 51% free 2015K/4096K, paused 13ms
+I/System  ( 1422): Loaded time zone names for  in 370ms (367ms in ICU)
+I/System  ( 1422): Loaded time zone names for en_US in 225ms (221ms in ICU)
+I/System  ( 1422): Loaded time zone names for zh_CN in 210ms (207ms in ICU)
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 472K, 50% free 2054K/4096K, paused 14ms
+I/Zygote  ( 1422): ...preloaded 2297 classes in 2270ms.
+D/dalvikvm( 1422): GC_EXPLICIT freed 173K, 47% free 2176K/4096K, paused 1ms+1ms
+I/Zygote  ( 1422): Preloading resources...
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 63K, 6% free 4001K/4227K, paused 13ms
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 45K, 4% free 5873K/6083K, paused 17ms
+D/dalvikvm( 1422): GC_FOR_ALLOC freed 20K, 4% free 7155K/7427K, paused 15ms
+I/Zygote  ( 1422): ...preloaded 379 resources in 402ms.
+I/Zygote  ( 1422): ...preloaded 31 resources in 7ms.
+D/dalvikvm( 1422): GC_EXPLICIT freed 56K, 2% free 9120K/9219K, paused 1ms+2ms
+D/dalvikvm( 1422): GC_EXPLICIT freed 49K, 2% free 9070K/9219K, paused 1ms+1ms
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 2% free 9070K/9219K, paused 1ms+2ms
+I/dalvikvm( 1422): System server process 1590 has been created
+I/Zygote  ( 1422): Accepting command socket connections
+I/sysproc ( 1590): Entered system_init()
+I/sysproc ( 1590): ServiceManager: 0x1b29c0
+D/SensorService( 1590): nuSensorService starting...
+I/AKMD2   ( 1507): akmd2 : Compass Opened.
+I/SensorService( 1590): KXTF9 3-axis Accelerometer
+I/SensorService( 1590): AK8975 3-axis Magnetic field sensor
+I/SensorService( 1590): AK8975 Orientation sensor
+I/SensorService( 1590): ISL29030 Proximity sensor
+I/SensorService( 1590): ISL29030 Light sensor
+I/sysproc ( 1590): System server: starting Android runtime.
+I/sysproc ( 1590): System server: starting Android services.
+I/sysproc ( 1590): System server: entering thread pool.
+D/SensorService( 1590): nuSensorService thread starting...
+I/SystemServer( 1590): Entered the Android system server!
+I/SystemServer( 1590): Entropy Service
+I/AKMD2   ( 1507): akmd2 : Compass Closed.
+I/SystemServer( 1590): Power Manager
+I/SystemServer( 1590): Activity Manager
+I/ActivityManager( 1590): Memory class: 64
+D/dalvikvm( 1590): GC_CONCURRENT freed 78K, 3% free 9480K/9735K, paused 3ms+3ms
+F/BatteryStatsImpl( 1590): problem reading network stats
+F/BatteryStatsImpl( 1590): java.lang.IllegalStateException: problem parsing idx 1
+F/BatteryStatsImpl( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:300)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:250)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.os.BatteryStatsImpl.getNetworkStatsDetailGroupedByUid(BatteryStatsImpl.java:5734)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.os.BatteryStatsImpl.access$100(BatteryStatsImpl.java:76)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.os.BatteryStatsImpl$Uid.computeCurrentTcpBytesReceived(BatteryStatsImpl.java:2457)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.os.BatteryStatsImpl$Uid.getTcpBytesReceived(BatteryStatsImpl.java:2446)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.os.BatteryStatsImpl.writeSummaryToParcel(BatteryStatsImpl.java:5437)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.os.BatteryStatsImpl.writeLocked(BatteryStatsImpl.java:4836)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.os.BatteryStatsImpl.writeAsyncLocked(BatteryStatsImpl.java:4818)
+F/BatteryStatsImpl( 1590): 	at com.android.server.am.ActivityManagerService.<init>(ActivityManagerService.java:1489)
+F/BatteryStatsImpl( 1590): 	at com.android.server.am.ActivityManagerService.<init>(ActivityManagerService.java:150)
+F/BatteryStatsImpl( 1590): 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:1390)
+F/BatteryStatsImpl( 1590): Caused by: java.io.FileNotFoundException: /proc/net/xt_qtaguid/stats: open failed: ENOENT (No such file or directory)
+F/BatteryStatsImpl( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:406)
+F/BatteryStatsImpl( 1590): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+F/BatteryStatsImpl( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:269)
+F/BatteryStatsImpl( 1590): 	... 11 more
+F/BatteryStatsImpl( 1590): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+F/BatteryStatsImpl( 1590): 	at libcore.io.Posix.open(Native Method)
+F/BatteryStatsImpl( 1590): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+F/BatteryStatsImpl( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+F/BatteryStatsImpl( 1590): 	... 13 more
+E/AndroidRuntime( 1590): Error reporting WTF
+E/AndroidRuntime( 1590): java.lang.NullPointerException
+E/AndroidRuntime( 1590): 	at com.android.internal.os.RuntimeInit.wtf(RuntimeInit.java:345)
+E/AndroidRuntime( 1590): 	at android.util.Log$1.onTerribleFailure(Log.java:103)
+E/AndroidRuntime( 1590): 	at android.util.Log.wtf(Log.java:278)
+E/AndroidRuntime( 1590): 	at com.android.internal.os.BatteryStatsImpl.getNetworkStatsDetailGroupedByUid(BatteryStatsImpl.java:5738)
+E/AndroidRuntime( 1590): 	at com.android.internal.os.BatteryStatsImpl.access$100(BatteryStatsImpl.java:76)
+E/AndroidRuntime( 1590): 	at com.android.internal.os.BatteryStatsImpl$Uid.computeCurrentTcpBytesReceived(BatteryStatsImpl.java:2457)
+E/AndroidRuntime( 1590): 	at com.android.internal.os.BatteryStatsImpl$Uid.getTcpBytesReceived(BatteryStatsImpl.java:2446)
+E/AndroidRuntime( 1590): 	at com.android.internal.os.BatteryStatsImpl.writeSummaryToParcel(BatteryStatsImpl.java:5437)
+E/AndroidRuntime( 1590): 	at com.android.internal.os.BatteryStatsImpl.writeLocked(BatteryStatsImpl.java:4836)
+E/AndroidRuntime( 1590): 	at com.android.internal.os.BatteryStatsImpl.writeAsyncLocked(BatteryStatsImpl.java:4818)
+E/AndroidRuntime( 1590): 	at com.android.server.am.ActivityManagerService.<init>(ActivityManagerService.java:1489)
+E/AndroidRuntime( 1590): 	at com.android.server.am.ActivityManagerService.<init>(ActivityManagerService.java:150)
+E/AndroidRuntime( 1590): 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:1390)
+D/dalvikvm( 1590): GC_CONCURRENT freed 463K, 7% free 9522K/10183K, paused 2ms+1ms
+I/SystemServer( 1590): Telephony Registry
+I/ActivityManager( 1590): Enabled StrictMode logging for AThread's Looper
+I/SystemServer( 1590): Package Manager
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 285K, 7% free 9568K/10183K, paused 12ms
+D/StrictMode( 1590): No activity manager; failed to Dropbox violation.
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 335K, 7% free 9572K/10247K, paused 12ms
+D/dalvikvm( 1590): GC_CONCURRENT freed 241K, 5% free 9748K/10247K, paused 2ms+2ms
+W/PackageManager( 1590): Library not found: /system/framework/com.android.nfc_extras.jar
+W/PackageParser( 1590): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+D/dalvikvm( 1590): GC_CONCURRENT freed 225K, 5% free 9951K/10375K, paused 1ms+3ms
+W/PackageParser( 1590): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #538
+D/dalvikvm( 1590): GC_CONCURRENT freed 176K, 4% free 10183K/10567K, paused 1ms+2ms
+W/PackageManager( 1590): Unable to update from com.android.music to com.google.android.music: old package still exists
+D/dalvikvm( 1590): GC_CONCURRENT freed 233K, 4% free 10407K/10823K, paused 2ms+3ms
+D/dalvikvm( 1590): GC_CONCURRENT freed 209K, 4% free 10605K/11015K, paused 3ms+3ms
+W/ResourceType( 1590): Failure getting entry for 0x7f0c0013 (t=11 e=19) in package 0 (error -75)
+D/dalvikvm( 1590): GC_CONCURRENT freed 215K, 4% free 10800K/11207K, paused 3ms+5ms
+W/ResourceType( 1590): Failure getting entry for 0x7f02004b (t=1 e=75) in package 0 (error -75)
+I/PackageManager( 1590): /system/app/GoogleBackupTransport.apk changed; collecting certs
+W/PackageManager( 1590): Signature mismatch for shared user : SharedUserSetting{4137d278 android.uid.system/1000}
+E/PackageManager( 1590): Package com.google.android.backup has no signatures that match those in shared user android.uid.system; ignoring!
+D/PackageManager( 1590): No files in app dir /vendor/app
+I/installd( 1426): new connection
+I/Installer( 1590): connecting...
+D/dalvikvm( 1590): GC_CONCURRENT freed 291K, 5% free 10923K/11399K, paused 2ms+3ms
+D/dalvikvm( 1590): GC_CONCURRENT freed 167K, 3% free 11198K/11527K, paused 2ms+3ms
+I/PackageManager( 1590): Time to scan packages: 4.043 seconds
+W/PackageManager( 1590): Unknown permission com.android.vending.permission.UPDATE_MARKET_FAILURE in package com.android.vending.updater
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.tencent.qq (protectionLevel=2 flags=0xac44)
+W/PackageManager( 1590): Unknown permission com.tencent.permission.QUICK_OPTIMIZE in package com.tencent.qq
+W/PackageManager( 1590): Unknown permission com.tencent.permission.VIRUS_SCAN in package com.tencent.qq
+W/PackageManager( 1590): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager( 1590): Unknown permission com.android.vending.billing.IBillingAccountService.BIND2 in package com.google.android.gsf.login
+W/PackageManager( 1590): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.tencent.mobileqq (protectionLevel=2 flags=0xbe44)
+W/PackageManager( 1590): Unknown permission android.permission.READ_OWNER_DATA in package com.google.android.setupwizard
+W/PackageManager( 1590): Unknown permission android.permission.WRITE_OWNER_DATA in package com.google.android.setupwizard
+W/PackageManager( 1590): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.android.videoeditor
+W/PackageManager( 1590): Not granting permission com.google.android.gm.permission.READ_GMAIL to package com.google.android.apps.uploader (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 1590): Unknown permission com.google.android.voicesearch.SHORTCUTS_ACCESS in package com.google.android.googlequicksearchbox
+W/PackageManager( 1590): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.android.vending
+W/PackageManager( 1590): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.vending (protectionLevel=2 flags=0xabe45)
+W/PackageManager( 1590): Not granting permission android.permission.ACCOUNT_MANAGER to package com.google.android.music (protectionLevel=2 flags=0x8be65)
+W/PackageManager( 1590): Unknown permission com.google.android.voicesearch.AUDIO_FILE_ACCESS in package com.google.android.gm
+W/PackageManager( 1590): Unknown permission com.android.providers.im.permission.READ_ONLY in package com.google.android.apps.maps
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.android.facelock (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 1590): Unknown permission android.permission.VIBRATION in package com.baidu.input
+D/dalvikvm( 1590): GC_EXPLICIT freed 415K, 5% free 11219K/11783K, paused 3ms+4ms
+I/SystemServer( 1590): Account Manager
+D/PackageManager( 1590): generateServicesMap(android.accounts.AccountAuthenticator): 3 services unchanged
+I/SystemServer( 1590): Content Manager
+I/        ( 1514): odm_disp_cabc_thread running
+I/        ( 1514): odm_disp_cabc_thread is restarting err_cnt=1
+D/PackageManager( 1590): generateServicesMap(android.content.SyncAdapter): 9 services unchanged
+I/ActivityThread( 1590): Pub settings: com.android.providers.settings.SettingsProvider
+I/SystemServer( 1590): System Content Providers
+D/SettingsProvider( 1590): cache for settings table 'secure' rows=47; fullycached=true
+D/SettingsProvider( 1590): cache for settings table 'system' rows=57; fullycached=true
+D/dalvikvm( 1590): GC_CONCURRENT freed 294K, 5% free 11433K/11911K, paused 2ms+2ms
+D/lights  ( 1590): RGB: "battery", color=0xffffff00, flash=0, onMs/offMs=0/0 => blink=0, RGB=255 255 0
+I/SystemServer( 1590): Lights Service
+I/SystemServer( 1590): Battery Service
+I/SystemServer( 1590): Vibrator Service
+D/lights  ( 1590): Switching to BRIGHTNESS_MODE_SENSOR
+D/lights  ( 1590): LCD: SENSOR, 0 * 1.00 => 0
+I/power   ( 1590): *** set_screen_state 1
+D/AlarmManagerService( 1590): Kernel timezone updated to -480 minutes west of GMT
+D/lights  ( 1590): LCD: SENSOR, 102 * 1.00 => 102
+I/SystemServer( 1590): Alarm Manager
+I/SystemServer( 1590): Init Watchdog
+I/SystemServer( 1590): Window Manager
+I/InputManager( 1590): Initializing input manager
+W/StatusBarManager( 1590): warning: no STATUS_BAR_SERVICE
+I/InputManager( 1590): Starting input manager
+I/WindowManager( 1590): Enabled StrictMode for PolicyThread's Looper
+I/WindowManager( 1590): Enabled StrictMode logging for WMThread's Looper
+I/SystemServer( 1590): Bluetooth Service
+I/BluetoothProfileState( 1590): Message:Entering Stable State
+I/BluetoothProfileState( 1590): Message:Entering Stable State
+I/BluetoothProfileState( 1590): Message:Entering Stable State
+I/SystemServer( 1590): Input Method Service
+W/InputManagerService( 1590): Couldn't create dir.: /data/system/inputmethod
+D/EventHub( 1590): No input device configuration file found for device 'compass'.
+D/PermissionCache( 1421): checking android.permission.ACCESS_SURFACE_FLINGER for uid=1000 => granted (217 us)
+I/SystemServer( 1590): Accessibility Manager
+I/ActivityManager( 1590): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw360dp w360dp h614dp nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer( 1590): Device Policy
+I/SystemServer( 1590): Status Bar
+I/SystemServer( 1590): Clipboard Service
+I/SystemServer( 1590): NetworkManagement Service
+I/SystemServer( 1590): Text Service Manager Service
+I/SystemServer( 1590): NetworkStats Service
+I/SystemServer( 1590): NetworkPolicy Service
+I/SystemServer( 1590): Wi-Fi P2pService
+I/SystemServer( 1590): Wi-Fi Service
+E/CommandListener( 1418): Failed to open /proc/sys/net/ipv6/conf/eth0/disable_ipv6: No such file or directory
+E/WifiStateMachine( 1590): Failed to disable IPv6: java.lang.IllegalStateException: Unable to communicate to native daemon for disabling ipv6
+I/SystemServer( 1590): Connectivity Service
+D/ConnectivityService( 1590): ConnectivityService starting up
+E/ConnectivityService( 1590): Ignoring protectedNetwork 10
+E/ConnectivityService( 1590): Ignoring protectedNetwork 11
+E/ConnectivityService( 1590): Ignoring protectedNetwork 12
+E/MobileDataStateTracker( 1590): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker( 1590): default: Could not enable APN type "default"
+D/EventHub( 1590): No input device configuration file found for device 'als'.
+D/NetworkManagementService( 1590): Registering observer
+D/NetworkManagementService( 1590): Registering observer
+I/WifiService( 1590): WifiService starting up with Wi-Fi enabled
+I/SystemServer( 1590): Throttle Service
+I/SystemServer( 1590): Mount Service
+D/MountService( 1590): got storage path: /mnt/sdcard description: 内部存储空间 primary: true removable: true emulated: false mtpReserve: 0 allowMassStorage: true maxFileSize: 0
+D/MountService( 1590): got storage path: /mnt/sdcard-ext description: SD 卡 primary: false removable: false emulated: false mtpReserve: 0 allowMassStorage: true maxFileSize: 0
+I/SystemServer( 1590): Notification Manager
+I/SystemServer( 1590): Device Storage Monitor
+I/SystemServer( 1590): Location Manager
+I/SystemServer( 1590): Country Detector
+I/SystemServer( 1590): Search Service
+I/SystemServer( 1590): DropBox Service
+D/VoldCmdListener( 1416): volume list
+I/SystemServer( 1590): Wallpaper Service
+I/SystemServer( 1590): Audio Service
+D/EventHub( 1590): No input device configuration file found for device 'proximity'.
+D/dalvikvm( 1590): GC_CONCURRENT freed 420K, 5% free 11658K/12231K, paused 2ms+3ms
+I/PackageManager( 1590): Updating external media status from unmounted to unmounted
+D/MountService( 1590): volume state changed for /mnt/sdcard-ext (null -> unmounted)
+D/MountService( 1590): volume state changed for /mnt/sdcard (null -> unmounted)
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.0 (null -> removed)
+D/AudioHardwareMot( 1424): setVoiceVolume(0.800000) Setting in-call volume to 6 (available range is 0 to 7)
+D/AudioMgrRIL( 1424): setting volume, volume = 6
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.1 (null -> removed)
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.2 (null -> removed)
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.3 (null -> removed)
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.4 (null -> removed)
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.5 (null -> removed)
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.6 (null -> removed)
+D/MountService( 1590): volume state changed for /mnt/usbdisk_1.7 (null -> removed)
+D/AudioHardwareMot( 1424): AudioHardwareMot Mic Unmuted
+D/AudioHardwareMot( 1424): bufSize = 8192
+I/SystemServer( 1590): Dock Observer
+I/SystemServer( 1590): Wired Accessory Observer
+I/SystemServer( 1590): USB Service
+I/SystemServer( 1590): UI Mode Manager Service
+I/SystemServer( 1590): Backup Service
+D/EventHub( 1590): No input device configuration file found for device 'accelerometer'.
+V/BackupManagerService( 1590): Initializing package tracking
+V/BackupManagerService( 1590): No ancestral data
+V/BackupManagerService( 1590): addPackageParticipantsLocked: null
+I/BackupManagerService( 1590): New app android never backed up; scheduling
+I/BackupManagerService( 1590): New app com.android.browser never backed up; scheduling
+I/BackupManagerService( 1590): New app com.android.calendar never backed up; scheduling
+E/filemap ( 1590): mmap(0,4096) failed: No such device
+I/BackupManagerService( 1590): New app com.android.inputmethod.latin never backed up; scheduling
+I/EventHub( 1590): New device: id=5, fd=127, path='/dev/input/event2', name='qtouch-obp-ts', classes=0x15, configuration='/system/usr/idc/qtouch-obp-ts.idc', keyLayout='/system/usr/keylayout/qtouch-obp-ts.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false
+I/BackupManagerService( 1590): New app com.android.providers.settings never backed up; scheduling
+E/EventHub( 1590): could not get driver version for /dev/input/mice, Not a typewriter
+I/BackupManagerService( 1590): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService( 1590): New app com.android.sharedstoragebackup never backed up; scheduling
+I/BackupManagerService( 1590): New app com.android.vending never backed up; scheduling
+I/BackupManagerService( 1590): New app com.google.android.gm never backed up; scheduling
+D/EventHub( 1590): No input device configuration file found for device 'cpcap-key'.
+I/EventHub( 1590): New device: id=6, fd=170, path='/dev/input/event0', name='cpcap-key', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/cpcap-key.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false
+V/BackupManagerService( 1590): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@415d1258
+V/BackupManagerService( 1590): Starting with transport com.google.android.backup/.BackupTransportService
+V/BackupManagerService( 1590): Google transport not present
+I/BackupManagerService( 1590): Found stale backup journal, scheduling
+I/BackupManagerService( 1590):   android
+I/BackupManagerService( 1590):   com.android.browser
+I/BackupManagerService( 1590):   com.android.calendar
+I/BackupManagerService( 1590):   com.android.inputmethod.latin
+I/BackupManagerService( 1590):   com.android.providers.settings
+I/BackupManagerService( 1590):   com.android.providers.userdictionary
+I/BackupManagerService( 1590):   com.android.sharedstoragebackup
+I/BackupManagerService( 1590):   com.android.vending
+I/BackupManagerService( 1590):   com.google.android.gm
+I/BackupManagerService( 1590): Backup enabled => false
+I/BackupManagerService( 1590): Opting out of backup
+I/SystemServer( 1590): AppWidget Service
+I/SystemServer( 1590): Recognition Service
+I/SystemServer( 1590): DiskStats Service
+I/SystemServer( 1590): SamplingProfiler Service
+I/SystemServer( 1590): NetworkTimeUpdateService
+D/EventHub( 1590): No input device configuration file found for device 'tegra-kbc'.
+I/EventHub( 1590): New device: id=7, fd=171, path='/dev/input/event1', name='tegra-kbc', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/tegra-kbc.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false
+I/InputReader( 1590): Device added: id=7, name='tegra-kbc', sources=0x00000101
+I/InputReader( 1590): Device added: id=6, name='cpcap-key', sources=0x00000101
+I/InputReader( 1590):   Touch device 'qtouch-obp-ts' could not query the properties of its associated display 0.  The device will be inoperable until the display size becomes available.
+I/InputReader( 1590): Device added: id=5, name='qtouch-obp-ts', sources=0x00001103
+I/InputReader( 1590): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 1590): Device reconfigured: id=5, name='qtouch-obp-ts', surface size is now 540x960, mode is 1
+I/ActivityManager( 1590): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw360dp w360dp h614dp nrml long port ?uimode ?night finger -keyb/v/h -nav/h s.3}
+I/WindowManager( 1590): SAFE MODE not enabled
+D/dalvikvm( 1590): JIT started for system_server
+D/lights  ( 1590): buttons: USER, 255
+D/lights  ( 1590): LCD: SENSOR, 101 * 1.00 => 101
+D/PowerManagerService( 1590): system ready!
+D/lights  ( 1590): LCD: SENSOR, 100 * 1.00 => 100
+I/ActivityManager( 1590): System now ready
+I/Zygote  ( 1590): Process: zygote socket opened
+I/SystemServer( 1590): Making services ready
+D/SystemServer( 1590): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager( 1590): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1662 uid=1000 gids={1015, 3002, 3001, 3003}
+D/NetworkManagementService( 1590): not enabling bandwidth control
+W/NetworkStats( 1590): problem reading network stats: java.lang.IllegalStateException: problem parsing idx 1
+D/NetworkManagementService( 1590): Registering observer
+D/lights  ( 1590): LCD: SENSOR, 99 * 1.00 => 99
+D/dalvikvm( 1590): GC_CONCURRENT freed 495K, 6% free 11841K/12487K, paused 2ms+8ms
+D/lights  ( 1590): LCD: SENSOR, 98 * 1.00 => 98
+D/NetworkManagementService( 1590): Registering observer
+I/ActivityManager( 1590): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw360dp w360dp h614dp nrml long port finger -keyb/v/h -nav/h s.4}
+D/lights  ( 1590): LCD: SENSOR, 97 * 1.00 => 97
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 50K, 6% free 12060K/12743K, paused 31ms
+D/lights  ( 1590): LCD: SENSOR, 96 * 1.00 => 96
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 2K, 6% free 12266K/12999K, paused 31ms
+D/SystemUIService( 1662): loading: class com.android.systemui.statusbar.phone.PhoneStatusBar
+D/SystemUIService( 1662): running: com.android.systemui.statusbar.phone.PhoneStatusBar@4130e608
+V/TransportControlView( 1590): Create TCV com.android.internal.widget.TransportControlView@4158e590
+D/KeyguardStatusView( 1590): lunar : 农历一月廿四
+D/KeyguardStatusView( 1590): lunar : 农历一月廿四
+D/lights  ( 1590): LCD: SENSOR, 95 * 1.00 => 95
+W/RecognitionManagerService( 1590): no available voice recognition services found
+I/ActivityManager( 1590): Start proc com.google.android.gsf.login for service com.google.android.gsf.login/com.google.android.gsf.loginservice.GoogleLoginService: pid=1683 uid=10054 gids={3003, 1015, 1007, 2001, 3006}
+D/lights  ( 1590): LCD: SENSOR, 94 * 1.00 => 94
+D/dalvikvm( 1662): GC_CONCURRENT freed 114K, 4% free 9362K/9671K, paused 2ms+2ms
+D/lights  ( 1590): LCD: SENSOR, 93 * 1.00 => 93
+D/lights  ( 1590): RGB: "attention", color=0x00ffffff, flash=2, onMs/offMs=7/1000 => blink=1, RGB=255 255 255
+I/PowerWidget( 1662): Clearing any old widget stuffs
+I/PowerWidget( 1662): Setting up widget
+I/PowerWidget( 1662): Button list: toggleWifi|toggleBluetooth|toggleGPS|toggleSound|toggleWifiAp|toggleWimax|toggleBrightness|toggleSync|toggleAutoRotate|toggleScreenTimeout|toggleMobileData|toggleLockScreen|toggleAirplane|toggleMediaPlayPause|toggleMediaNext|toggleMediaPrevious|toggleSleepMode
+I/PowerWidget( 1662): Setting up button: toggleWifi
+D/lights  ( 1590): LCD: SENSOR, 92 * 1.00 => 92
+D/lights  ( 1590): LCD: SENSOR, 91 * 1.00 => 91
+I/PowerWidget( 1662): Setting up button: toggleBluetooth
+I/PowerWidget( 1662): Setting up button: toggleGPS
+I/PowerWidget( 1662): Setting up button: toggleSound
+I/ActivityManager( 1590): Start proc com.google.process.gapps for content provider com.google.android.gsf/.gservices.GservicesProvider: pid=1699 uid=10054 gids={3003, 1015, 1007, 2001, 3006}
+D/lights  ( 1590): LCD: SENSOR, 90 * 1.00 => 90
+I/ActivityManager( 1590): Start proc android.process.media for broadcast com.android.providers.media/.UsbReceiver: pid=1713 uid=10015 gids={1015, 1023, 1024, 2001, 3003, 3007}
+D/lights  ( 1590): LCD: SENSOR, 89 * 1.00 => 89
+I/PowerWidget( 1662): Setting up button: toggleWifiAp
+I/PowerWidget( 1662): Setting up button: toggleWimax
+E/PowerWidget( 1662): Error setting up button: toggleWimax
+I/PowerWidget( 1662): Setting up button: toggleBrightness
+D/SoftapController( 1418): Softap fwReload - Ok
+D/CommandListener( 1418): Setting iface cfg
+D/CommandListener( 1418): Trying to bring down eth0
+D/CommandListener( 1418): broadcast flag ignored
+D/CommandListener( 1418): multicast flag ignored
+D/NetworkManagementService( 1590): rsp <213 00:90:4c:11:22:33 0.0.0.0 0 [down broadcast multicast]>
+D/NetworkManagementService( 1590): flags <[down broadcast multicast]>
+I/ActivityThread( 1699): Pub com.google.settings: com.google.android.gsf.settings.GoogleSettingsProvider
+I/PowerWidget( 1662): Setting up button: toggleSync
+I/SyncButton( 1662): Registering sync state listener
+I/PowerWidget( 1662): Setting up button: toggleAutoRotate
+I/PowerWidget( 1662): Setting up button: toggleScreenTimeout
+D/lights  ( 1590): LCD: SENSOR, 88 * 1.00 => 88
+I/PowerWidget( 1662): Setting up button: toggleMobileData
+I/PowerWidget( 1662): Setting up button: toggleLockScreen
+I/PowerWidget( 1662): Setting up button: toggleAirplane
+I/PowerWidget( 1662): Setting up button: toggleMediaPlayPause
+I/PowerWidget( 1662): Setting up button: toggleMediaNext
+I/PowerWidget( 1662): Setting up button: toggleMediaPrevious
+I/PowerWidget( 1662): Setting up button: toggleSleepMode
+E/PowerWidget( 1662): loading brightnessAdjView
+I/ActivityThread( 1713): Pub media: com.android.providers.media.MediaProvider
+D/lights  ( 1590): LCD: SENSOR, 87 * 1.00 => 87
+I/wpa_supplicant( 1729): rfkill: Cannot open RFKILL control device
+D/lights  ( 1590): LCD: SENSOR, 86 * 1.00 => 86
+I/ActivityThread( 1713): Pub downloads: com.android.providers.downloads.DownloadProvider
+D/lights  ( 1590): LCD: SENSOR, 85 * 1.00 => 85
+I/ActivityThread( 1699): Pub subscribedfeeds: com.google.android.gsf.subscribedfeeds.SubscribedFeedsProvider
+I/DownloadManager( 1713): in removeSpuriousFiles
+I/ActivityThread( 1713): Pub drm: com.android.providers.drm.DrmProvider
+D/lights  ( 1590): LCD: SENSOR, 84 * 1.00 => 84
+I/ActivityThread( 1699): Pub com.google.contacts.gal.provider: com.google.android.syncadapters.contacts.GalProvider
+I/ActivityManager( 1590): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=1737 uid=1000 gids={1015, 3002, 3001, 3003}
+D/lights  ( 1590): LCD: SENSOR, 83 * 1.00 => 83
+D/lights  ( 1590): LCD: SENSOR, 82 * 1.00 => 82
+I/ActivityThread( 1699): Pub com.google.android.gsf.gservices: com.google.android.gsf.gservices.GservicesProvider
+I/GservicesProvider( 1699): Gservices pushing to system: true; secure: true
+I/ActivityThread( 1699): Pub com.google.android.providers.talk: com.google.android.gsf.talk.TalkProvider
+D/lights  ( 1590): LCD: SENSOR, 81 * 1.00 => 81
+D/lights  ( 1590): LCD: SENSOR, 80 * 1.00 => 80
+D/dalvikvm( 1662): GC_CONCURRENT freed 109K, 3% free 9800K/10055K, paused 2ms+2ms
+D/dalvikvm( 1699): GC_CONCURRENT freed 350K, 6% free 9237K/9735K, paused 3ms+3ms
+D/lights  ( 1590): LCD: SENSOR, 79 * 1.00 => 79
+I/DownloadManager( 1713): deleting spurious file /cache/dalvik-cache
+I/PowerWidget( 1662): Clearing any old widget stuffs
+I/SyncButton( 1662): Unregistering sync state listener
+I/PowerWidget( 1662): Setting up widget
+D/lights  ( 1590): LCD: SENSOR, 78 * 1.00 => 78
+I/PowerWidget( 1662): Button list: toggleWifi|toggleBluetooth|toggleGPS|toggleSound|toggleWifiAp|toggleWimax|toggleBrightness|toggleSync|toggleAutoRotate|toggleScreenTimeout|toggleMobileData|toggleLockScreen|toggleAirplane|toggleMediaPlayPause|toggleMediaNext|toggleMediaPrevious|toggleSleepMode
+I/PowerWidget( 1662): Setting up button: toggleWifi
+I/PowerWidget( 1662): Setting up button: toggleBluetooth
+D/SyncManager( 1590): setSyncAutomatically: , provider subscribedfeeds -> true
+D/SyncManager( 1590): setSyncAutomatically: already set to true, doing nothing
+D/lights  ( 1590): LCD: SENSOR, 77 * 1.00 => 77
+I/PowerWidget( 1662): Setting up button: toggleGPS
+I/PowerWidget( 1662): Setting up button: toggleSound
+D/lights  ( 1590): LCD: SENSOR, 76 * 1.00 => 76
+I/PowerWidget( 1662): Setting up button: toggleWifiAp
+I/PowerWidget( 1662): Setting up button: toggleWimax
+E/PowerWidget( 1662): Error setting up button: toggleWimax
+I/PowerWidget( 1662): Setting up button: toggleBrightness
+I/PowerWidget( 1662): Setting up button: toggleSync
+I/SyncButton( 1662): Registering sync state listener
+I/PowerWidget( 1662): Setting up button: toggleAutoRotate
+I/PowerWidget( 1662): Setting up button: toggleScreenTimeout
+I/PowerWidget( 1662): Setting up button: toggleMobileData
+I/PowerWidget( 1662): Setting up button: toggleLockScreen
+I/PowerWidget( 1662): Setting up button: toggleAirplane
+D/lights  ( 1590): LCD: SENSOR, 75 * 1.00 => 75
+I/PowerWidget( 1662): Setting up button: toggleMediaPlayPause
+I/PowerWidget( 1662): Setting up button: toggleMediaNext
+I/PowerWidget( 1662): Setting up button: toggleMediaPrevious
+I/PowerWidget( 1662): Setting up button: toggleSleepMode
+E/PowerWidget( 1662): loading brightnessAdjView
+D/lights  ( 1590): LCD: SENSOR, 74 * 1.00 => 74
+D/dalvikvm( 1590): GC_CONCURRENT freed 298K, 5% free 12714K/13255K, paused 3ms+3ms
+D/lights  ( 1590): LCD: SENSOR, 73 * 1.00 => 73
+I/StatusBarManagerService( 1590): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@4141bf20
+D/PhoneStatusBar( 1662): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT* CLOCK* >
+D/lights  ( 1590): LCD: SENSOR, 72 * 1.00 => 72
+D/StorageNotification( 1662): Startup with UMS connection false (media state unmounted)
+I/StorageNotification( 1662): UMS connection changed to false (media state unmounted)
+D/SystemUIService( 1662): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 1662): running: com.android.systemui.power.PowerUI@413df218
+D/lights  ( 1590): LCD: SENSOR, 71 * 1.00 => 71
+D/lights  ( 1590): LCD: SENSOR, 70 * 1.00 => 70
+D/lights  ( 1590): LCD: SENSOR, 69 * 1.00 => 69
+I/ActivityManager( 1590): Start proc com.android.noisefield for service com.android.noisefield/.NoiseFieldWallpaper: pid=1756 uid=10030 gids={}
+W/InputManagerService( 1590): Ignoring setImeWindowStatus of uid 1000 token: null
+D/dalvikvm( 1662): GC_CONCURRENT freed 290K, 5% free 9968K/10439K, paused 16ms+3ms
+D/lights  ( 1590): LCD: SENSOR, 68 * 1.00 => 68
+D/lights  ( 1590): LCD: SENSOR, 67 * 1.00 => 67
+I/ActivityManager( 1590): Start proc com.baidu.input for service com.baidu.input/.ImeService: pid=1768 uid=10070 gids={3003, 1015, 1007}
+I/dalvikvm( 1768): Turning on JNI app bug workarounds for target SDK version 8...
+I/LocationManagerService( 1590): Setting GPS Source to: 0
+D/NetworkManagementService( 1590): Registering observer
+D/lights  ( 1590): LCD: SENSOR, 66 * 1.00 => 66
+I/ActivityManager( 1590): Start proc com.android.phone for added application com.android.phone: pid=1788 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1590): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.cyanogenmod.trebuchet/.Launcher} from pid 0
+D/lights  ( 1590): LCD: SENSOR, 65 * 1.00 => 65
+D/lights  ( 1590): LCD: SENSOR, 64 * 1.00 => 64
+D/libgps_ext( 1590): gps_get_hardware_interface() : gps get interface
+I/ActivityManager( 1590): Start proc com.cyanogenmod.trebuchet for activity com.cyanogenmod.trebuchet/.Launcher: pid=1803 uid=10045 gids={}
+I/SystemServer( 1590): Enabled StrictMode for system server main thread.
+D/dalvikvm( 1422): GC_EXPLICIT freed 34K, 5% free 9082K/9475K, paused 1ms+4ms
+D/LocalBluetoothProfileManager( 1737): LocalBluetoothProfileManager construction complete
+D/libgps  ( 1590): libgps_get_interface() : returning interface
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 1ms+2ms
+W/ThrottleService( 1590): unable to find stats for iface ppp0
+D/libgps_ext( 1590): gps_get_hardware_interface(): returning interface
+I/libgps  ( 1590): GpsInterface_get_extension() : Returned "gps-xtra" extension
+I/libgps  ( 1590): GpsInterface_get_extension() : Extension "agps" not supported
+I/libgps  ( 1590): GpsInterface_get_extension() : Extension "gps-ni" not supported
+I/libgps  ( 1590): GpsInterface_get_extension() : Extension "gps-debug" not supported
+I/libgps  ( 1590): GpsInterface_get_extension() : Extension "agps_ril" not supported
+W/NetworkManagementSocketTagger( 1590): setKernelCountSet(10045, 1) failed with errno -2
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 2ms+3ms
+D/dalvikvm( 1662): GC_FOR_ALLOC freed 32K, 4% free 10229K/10631K, paused 19ms
+D/dalvikvm( 1768): Trying to load lib /data/data/com.baidu.input/lib/libinputcore-2_v11.so 0x412dcdc8
+D/dalvikvm( 1768): Added shared lib /data/data/com.baidu.input/lib/libinputcore-2_v11.so 0x412dcdc8
+E/dalvikvm( 1768): ERROR: couldn't find native method
+E/dalvikvm( 1768): Requested: Lcom/baidu/input/PlumCore;.PlGetSysver:()I
+I/ActivityThread( 1803): Pub com.cyanogenmod.trebuchet.settings: com.cyanogenmod.trebuchet.LauncherProvider
+D/libgps  ( 1590): GpsInterface_init()
+D/dalvikvm( 1662): GC_FOR_ALLOC freed 19K, 4% free 10553K/10887K, paused 21ms
+I/ActivityThread( 1788): Pub telephony: com.android.providers.telephony.TelephonyProvider
+D/NetworkLocationService( 1699): onCreate com.google.android.location.NetworkLocationService@412f4b18
+D/lights  ( 1590): RGB: "attention", color=0x00ffffff, flash=0, onMs/offMs=0/0 => blink=0, RGB=255 255 255
+D/lights  ( 1590): RGB: "attention", LED is blinking, turning off - the framework probably meant it
+I/wpa_supplicant( 1729): eth0: Trying to associate with 00:27:19:32:71:ae (SSID='TP-LINK_3271MM' freq=2412 MHz)
+D/NetworkLocationClient( 1699): ANDROID minProtocolVersion 1 maxProtocolVersion 1 releaseVersion -1
+D/NetworkLocationClient( 1699): binding to Intent { act=com.google.android.location.internal.ANDROID_NLP }
+W/TelephonyProvider( 1788): onCreate: confFile=/system/etc/apns-conf.xml oldCheckSum=-1
+I/ActivityThread( 1788): Pub icc: com.android.phone.IccProvider
+I/ActivityThread( 1788): Pub mms: com.android.providers.telephony.MmsProvider
+I/ActivityThread( 1788): Pub sms: com.android.providers.telephony.SmsProvider
+D/GpsLocationProvider( 1590): set_capabilities_callback: 0
+E/GpsLocationProvider( 1590): no AGPS interface in agps_data_conn_open
+I/ActivityThread( 1788): Pub mms-sms: com.android.providers.telephony.MmsSmsProvider
+I/wpa_supplicant( 1729): eth0: Associated with 00:27:19:32:71:ae
+I/wpa_supplicant( 1729): eth0: CTRL-EVENT-CONNECTED - Connection to 00:27:19:32:71:ae completed (auth) [id=0 id_str=]
+D/dalvikvm( 1699): GC_CONCURRENT freed 451K, 7% free 9277K/9927K, paused 3ms+9ms
+D/NetworkLocationService( 1699): onBind com.google.android.location.NetworkLocationProvidercom.google.android.location.NetworkLocationService@412f4b18
+D/NetworkLocationService( 1699): onBind com.google.android.location.GeocodeProvidercom.google.android.location.NetworkLocationService@412f4b18
+V/RenderScript( 1756): rsContextCreateGL dev=0x18f608
+V/RenderScript( 1756): 0x1b6bf0 Launching thread(s), CPUs 2
+V/RenderScript( 1756): 0x1b6bf0 initEGL start
+D/libEGL  ( 1756): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  ( 1756): loaded /system/lib/egl/libEGL_tegra.so
+D/libEGL  ( 1756): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+D/dalvikvm( 1788): GC_CONCURRENT freed 285K, 6% free 9245K/9735K, paused 2ms+27ms
+D/libEGL  ( 1756): loaded /system/lib/egl/libGLESv2_tegra.so
+V/RenderScript( 1756): 0x1b6bf0 initGLThread end
+V/RenderScript( 1756): 0x1b6bf0 rsContextCreateGL ret
+D/dalvikvm( 1662): GC_CONCURRENT freed 22K, 3% free 10992K/11271K, paused 4ms+2ms
+D/dalvikvm( 1803): GC_CONCURRENT freed 253K, 5% free 9210K/9671K, paused 11ms+1ms
+D/androidInternalNlpService( 1699): onCreate com.google.android.location.internal.server.NetworkLocationService@41323b18
+D/NetworkLocationRealOs( 1699): NLPv2 file already exists; ignoring any NLPv1 files
+D/androidNlpServiceThread( 1699): ANDROID minProtocolVersion 1 maxProtocolVersion 1 releaseVersion -1
+I/ActivityManager( 1590): Start proc com.android.smspush for service com.android.smspush/.WapPushManager: pid=1857 uid=10049 gids={}
+D/dalvikvm( 1590): GC_EXPLICIT freed 575K, 6% free 12906K/13639K, paused 4ms+5ms
+D/CAT     ( 1788): CatService: Is running
+D/CAT     ( 1788): CatService: NEW sInstance
+V/ScriptC ( 1756): Create script for resource = noisefield
+I/bcc     ( 1756): LIBBCC build time: 2012/02/14 00:57:27
+I/bcc     ( 1756): LIBBCC build revision: 31e50d678d2a8aa28c6f38cccebfa3da2f78df4a (git)
+D/NetworkLocationClient( 1699): onServiceConnected to ComponentInfo{com.google.android.location/com.google.android.location.internal.server.NetworkLocationService}
+D/WifiService( 1590): New client listening to asynchronous messages
+D/StopWatch( 1756): StopWatch calcFileSHA1 time (us): 63431 
+D/dalvikvm( 1699): GC_CONCURRENT freed 346K, 6% free 9453K/9991K, paused 2ms+1ms
+D/StopWatch( 1756): StopWatch calcFileSHA1 time (us): 64994 
+D/bcc     ( 1756): Read object file size 5780
+D/StopWatch( 1756): StopWatch bcc: PrepareExecutable time (us): 62308 
+D/dalvikvm( 1699): GC_CONCURRENT freed 157K, 4% free 9813K/10119K, paused 4ms+2ms
+E/TelephonyProvider( 1788): Failed setting numeric '46003' to the current operator
+D/MccTable( 1788): updateMccMncConfiguration: mcc=460, mnc=3
+D/MccTable( 1788): locale set to zh_cn
+D/MccTable( 1788): WIFI_COUNTRY_CODE set to cn
+D/dalvikvm( 1788): GC_CONCURRENT freed 297K, 5% free 9377K/9863K, paused 2ms+15ms
+I/WifiService( 1590): WifiService trying to set country code to cn with persist set to true
+I/ActivityManager( 1590): Config changed: {1.0 460mcc3mnc zh_CN layoutdir=0 sw360dp w360dp h614dp nrml long port finger -keyb/v/h -nav/h s.5}
+D/dalvikvm( 1803): GC_CONCURRENT freed 184K, 4% free 9544K/9927K, paused 3ms+2ms
+I/wpa_supplicant( 1729): eth0: CTRL-EVENT-DISCONNECTED bssid=00:27:19:32:71:ae reason=0
+D/CommandListener( 1418): Clearing all IP addresses on eth0
+D/androidNetworkLocationListeners( 1699): Still have listener com.google.android.location.internal.client.NetworkLocationClient$1@41353760
+D/NetworkLocator( 1699): null cell state delivered
+I/SearchManagerService( 1590): Building list of searchable activities
+D/CallManager( 1788): registerPhone(CDMA Handler (com.android.internal.telephony.PhoneProxy) {41327088})
+D/NetworkLocator( 1699): null cell state delivered
+D/Bluetooth HS/HF( 1788): CDMA call state: IDLE prev state:IDLE
+I/ActivityManager( 1590): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1910 uid=10000 gids={3003, 1015}
+D/AudioHardwareMot( 1424): bufSize = 8192
+D/AudioHardwareMot( 1424): bufSize = 8192
+W/ActivityManager( 1590): Unable to start service Intent { act=com.android.ussd.IExtendedNetworkService }: not found
+D/OtaUtils( 1788): CdmaOtaConfigData constructor!
+D/OtaUtils( 1788): CdmaOtaInCallScreenState: constructor init to UNDEFINED
+I/ActivityThread( 1910): Pub com.android.voicemail: com.android.providers.contacts.VoicemailContentProvider
+I/ActivityThread( 1910): Pub user_dictionary: com.android.providers.userdictionary.UserDictionaryProvider
+I/ActivityThread( 1910): Pub com.android.social: com.android.providers.contacts.SocialProvider
+I/ActivityThread( 1910): Pub applications: com.android.providers.applications.ApplicationsProvider
+I/StorageNotification( 1662): UMS connection changed to true (media state unmounted)
+D/dalvikvm( 1590): GC_CONCURRENT freed 669K, 6% free 13201K/14023K, paused 3ms+5ms
+I/ActivityThread( 1910): Pub contacts;com.android.contacts: com.android.providers.contacts.ContactsProvider2
+D/dalvikvm( 1910): GC_CONCURRENT freed 348K, 6% free 9238K/9735K, paused 2ms+2ms
+I/PowerWidget( 1662): Clearing any old widget stuffs
+I/ActivityThread( 1910): Pub call_log: com.android.providers.contacts.CallLogProvider
+I/SyncButton( 1662): Unregistering sync state listener
+I/PowerWidget( 1662): Setting up widget
+I/PowerWidget( 1662): Button list: toggleWifi|toggleBluetooth|toggleGPS|toggleSound|toggleWifiAp|toggleWimax|toggleBrightness|toggleSync|toggleAutoRotate|toggleScreenTimeout|toggleMobileData|toggleLockScreen|toggleAirplane|toggleMediaPlayPause|toggleMediaNext|toggleMediaPrevious|toggleSleepMode
+I/PowerWidget( 1662): Setting up button: toggleWifi
+D/Bluetooth HSHFP( 1788): Starting BluetoothHeadsetService
+I/PowerWidget( 1662): Setting up button: toggleBluetooth
+I/PowerWidget( 1662): Setting up button: toggleGPS
+D/CAT     ( 1788): CatService: SIM ready. Reporting STK service running now...
+I/ActivityManager( 1590): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.PhoneStateReceiver: pid=1935 uid=10065 gids={3003}
+I/PowerWidget( 1662): Setting up button: toggleSound
+I/PowerWidget( 1662): Setting up button: toggleWifiAp
+I/ActivityThread( 1935): Pub com.google.android.partnersetup.rlzprovider: com.google.android.partnersetup.RlzProvider
+I/PowerWidget( 1662): Setting up button: toggleWimax
+I/ActivityThread( 1935): Pub com.google.android.partnersetup.rlzappprovider: com.google.android.partnersetup.RlzAppProvider
+E/PowerWidget( 1662): Error setting up button: toggleWimax
+I/wpa_supplicant( 1729): eth0: Trying to associate with 00:27:19:32:71:ae (SSID='TP-LINK_3271MM' freq=2412 MHz)
+I/PowerWidget( 1662): Setting up button: toggleBrightness
+D/dalvikvm( 1788): GC_CONCURRENT freed 355K, 6% free 9449K/9991K, paused 2ms+2ms
+I/PowerWidget( 1662): Setting up button: toggleSync
+I/SyncButton( 1662): Registering sync state listener
+I/wpa_supplicant( 1729): eth0: Associated with 00:27:19:32:71:ae
+I/wpa_supplicant( 1729): eth0: CTRL-EVENT-CONNECTED - Connection to 00:27:19:32:71:ae completed (reauth) [id=0 id_str=]
+D/dalvikvm( 1662): GC_CONCURRENT freed 375K, 5% free 11181K/11719K, paused 6ms+7ms
+I/PowerWidget( 1662): Setting up button: toggleAutoRotate
+D/WifiLocator( 1699): Too many cache  misses. Need server request. hasLocation=0 noLocation=0 cacheMiss=2
+I/System.out( 1699): [INFO:1893]: LogSource: Running flush
+I/PowerWidget( 1662): Setting up button: toggleScreenTimeout
+I/System.out( 1699): [INFO:1919]: LogSource: Sending payload [bytes=340]
+I/PowerWidget( 1662): Setting up button: toggleMobileData
+I/PowerWidget( 1662): Setting up button: toggleLockScreen
+I/PowerWidget( 1662): Setting up button: toggleAirplane
+I/PowerWidget( 1662): Setting up button: toggleMediaPlayPause
+I/PowerWidget( 1662): Setting up button: toggleMediaNext
+D/dalvikvm( 1699): GC_CONCURRENT freed 706K, 9% free 9611K/10503K, paused 5ms+2ms
+I/System.out( 1699): [SEVERE:1945]: LogSource: AsyncHttpRequestImpl.run(): exception thrown : Unable to resolve host "www.google.com": No address associated with hostname: java.net.UnknownHostException
+I/PowerWidget( 1662): Setting up button: toggleMediaPrevious
+E/GlsClient-query( 1699): requestFailed
+D/WifiLocator( 1699): Too many cache  misses. Need server request. hasLocation=0 noLocation=0 cacheMiss=2
+I/PowerWidget( 1662): Setting up button: toggleSleepMode
+E/PowerWidget( 1662): loading brightnessAdjView
+V/SipBroadcastReceiver( 1788): start auto registration
+D/CAT     ( 1788): CatService: ril message arrived
+D/CAT     ( 1788): CommandParamsFactory: process SelectItem
+I/ActivityManager( 1590): Start proc com.android.deskclock for broadcast com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider: pid=1954 uid=10013 gids={}
+I/ActivityThread( 1954): Pub com.android.deskclock: com.android.deskclock.AlarmProvider
+D/CAT     ( 1788): CatService: SET_UP_MENU
+D/CAT     ( 1788): CatService: encodeOptionalTags() Unsupported Cmd:37
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 863K, 8% free 13263K/14343K, paused 70ms
+D/CAT     ( 1788): CatService: ril message arrived
+D/CAT     ( 1788): CatService: SESSION END
+D/dalvikvm( 1590): GC_CONCURRENT freed 250K, 9% free 13158K/14343K, paused 5ms+7ms
+D/Launcher.Model( 1803): Reload apps on config change. curr_mcc:460 prevmcc:0
+D/dalvikvm( 1910): GC_CONCURRENT freed 174K, 4% free 9480K/9863K, paused 3ms+2ms
+D/dalvikvm( 1803): GC_CONCURRENT freed 242K, 5% free 9830K/10247K, paused 3ms+2ms
+I/CustomSpnReader( 1788): operatorNumberic = 46003
+I/CustomSpnReader( 1788): oriSpnName = 正在搜索服务
+I/CustomSpnReader( 1788): Current language is : zh
+E/CustomSpnReader( 1788): Config File Path : /system/etc/spn-conf.xml
+I/SurfaceFlinger( 1421): Boot is finished (16936 ms)
+W/ProcessStats( 1590): Skipping unknown process pid 1980
+W/ProcessStats( 1590): Skipping unknown process pid 1984
+W/ActivityThread( 1788): ClassLoader.getResources: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/dalvikvm( 1788): GC_CONCURRENT freed 345K, 5% free 9559K/10055K, paused 3ms+2ms
+D/PowerManagerService( 1590): bootCompleted
+V/DevicePolicyManagerService( 1590): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+I/CustomSpnReader( 1788): expression : /spnOverrides/spnOverride[@numeric='46003']
+W/logwrapper( 2005): Unable to background process (No such file or directory)
+D/VoldCmdListener( 1416): volume mount /mnt/sdcard
+I/Vold    ( 1416): /dev/block/vold/179:18 being considered for volume sdcard
+D/Vold    ( 1416): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+D/MountService( 1590): volume state changed for /mnt/sdcard (unmounted -> checking)
+V/WiredAccessoryObserver( 1590): init()
+D/MountService( 1590): sendStorageIntent Intent { act=android.intent.action.MEDIA_CHECKING dat=file:///mnt/sdcard (has extras) }
+I//system/bin/fsck_msdos( 1416): ** /dev/block/vold/179:18
+I//system/bin/fsck_msdos( 1416): ** Phase 1 - Read FAT (compare skipped)
+I//system/bin/fsck_msdos( 1416): Attempting to allocate 4564 KB for FAT
+W/WiredAccessoryObserver( 1590): This kernel does not have wired headset support
+W/WiredAccessoryObserver( 1590): This kernel does not have wired headset support
+D/ConnectivityService( 1590): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+I/CustomSpnReader( 1788): expression : /spnOverrides/spnOverride[@numeric='46003']/spn[@locale='zh']
+I/CustomSpnReader( 1788): got customSpnName from the locale : 中国电信
+I/StorageNotification( 1662): Media {/mnt/sdcard} state changed from {unmounted} -> {checking} (primary = true)
+F/NetworkStats( 1590): problem reading network stats
+F/NetworkStats( 1590): java.lang.IllegalStateException: problem parsing idx 1
+F/NetworkStats( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:300)
+F/NetworkStats( 1590): 	at com.android.server.NetworkManagementService.getNetworkStatsUidDetail(NetworkManagementService.java:1282)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.performPollLocked(NetworkStatsService.java:831)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.updateIfacesLocked(NetworkStatsService.java:743)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.updateIfaces(NetworkStatsService.java:721)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.access$000(NetworkStatsService.java:128)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService$1.onReceive(NetworkStatsService.java:612)
+F/NetworkStats( 1590): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:728)
+F/NetworkStats( 1590): 	at android.os.Handler.handleCallback(Handler.java:605)
+F/NetworkStats( 1590): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+F/NetworkStats( 1590): 	at android.os.Looper.loop(Looper.java:137)
+F/NetworkStats( 1590): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+F/NetworkStats( 1590): Caused by: java.io.FileNotFoundException: /proc/net/xt_qtaguid/stats: open failed: ENOENT (No such file or directory)
+F/NetworkStats( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:406)
+F/NetworkStats( 1590): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+F/NetworkStats( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:269)
+F/NetworkStats( 1590): 	... 11 more
+F/NetworkStats( 1590): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+F/NetworkStats( 1590): 	at libcore.io.Posix.open(Native Method)
+F/NetworkStats( 1590): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+F/NetworkStats( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+F/NetworkStats( 1590): 	... 13 more
+D/CAT     ( 1788): CatService: Return current sInstance
+D/CAT     ( 1788): StkAppService: SET_UP_MENU
+D/CAT     ( 1788): StkAppService: Install App
+I/ActivityManager( 1590): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=2027 uid=10000 gids={3003, 1015}
+D/dalvikvm( 1662): GC_CONCURRENT freed 162K, 3% free 11643K/11975K, paused 13ms+14ms
+I//system/bin/fsck_msdos( 1416): ** Phase 2 - Check Cluster Chains
+I//system/bin/fsck_msdos( 1416): ** Phase 3 - Checking Directories
+D/dalvikvm( 1803): GC_CONCURRENT freed 310K, 6% free 9931K/10503K, paused 2ms+4ms
+D/dalvikvm( 1803): GC_FOR_ALLOC freed 29K, 6% free 9931K/10503K, paused 28ms
+I/dalvikvm-heap( 1803): Grow heap (frag case) to 10.168MB for 345760-byte allocation
+D/dalvikvm( 1803): GC_FOR_ALLOC freed 1K, 6% free 10268K/10887K, paused 38ms
+D/dalvikvm( 1803): GC_FOR_ALLOC freed <1K, 6% free 10268K/10887K, paused 32ms
+I/dalvikvm-heap( 1803): Grow heap (frag case) to 10.498MB for 345760-byte allocation
+V/OtaStartupReceiver( 1788): onReceive: intent action=android.intent.action.BOOT_COMPLETED  mOtaspMode=-1
+D/OtaStartupReceiver( 1788): Register our PhoneStateListener
+D/dalvikvm( 1803): GC_FOR_ALLOC freed <1K, 6% free 10606K/11271K, paused 20ms
+V/OtaStartupReceiver( 1788): resolvInfo = null, provisioned = true, runningSetupWizard = true
+W/OtaStartupReceiver( 1788): Network is not ready. Registering to receive notification.
+V/OtaStartupReceiver( 1788): onOtaspChanged: mOtaspMode=3
+I/ActivityManager( 1590): Start proc com.bel.android.dspmanager for broadcast com.bel.android.dspmanager/.receiver.BootCompletedReceiver: pid=2058 uid=10011 gids={3002}
+D/AccountTypeManager( 2027): Registering 1 extension packages
+D/dalvikvm( 1803): GC_FOR_ALLOC freed <1K, 6% free 10606K/11271K, paused 53ms
+I/dalvikvm-heap( 1803): Grow heap (frag case) to 10.829MB for 345760-byte allocation
+D/dalvikvm( 1803): GC_FOR_ALLOC freed <1K, 7% free 10944K/11655K, paused 15ms
+I/AccountTypeManager( 2027): Loaded meta-data for 2 account types, 1 accounts in 131ms(wall) 16ms(cpu)
+D/dalvikvm( 1662): GC_FOR_ALLOC freed 517K, 7% free 11710K/12551K, paused 59ms
+E/DefaultVoicemailNotifier( 2027): No voicemails to notify about: clear the notification.
+I/HeadsetService( 2058): Starting service.
+W/ActivityManager( 1590): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x10 } to com.motorola.android.AudioEffectSettings requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+I/ActivityManager( 1590): Start proc com.cyanogenmod.stats for broadcast com.cyanogenmod.stats/.ReportingServiceManager: pid=2074 uid=10005 gids={3003}
+I/RecoverySystem( 1590): No recovery log file
+I/ActivityManager( 1590): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=2091 uid=10008 gids={3003, 1015}
+D/CMStats ( 2074): BOOT_COMPLETED: Setting checkedin=false
+I//system/bin/fsck_msdos( 1416): ** Phase 4 - Checking for Lost Files
+D/SystemClock( 1788): Setting time of day to sec=1329239680
+D/dalvikvm( 1590): GC_CONCURRENT freed 990K, 9% free 13080K/14343K, paused 12ms+4ms
+I//system/bin/fsck_msdos( 1416): 4764 files, 2134128 free (791054 clusters)
+I/Vold    ( 1416): Filesystem check completed OK
+I/PackageManager( 1590): Updating external media status from unmounted to mounted
+W/logwrapper( 2105): Unable to background process (No such file or directory)
+I/Vold    ( 1416): Device /dev/block/vold/179:18, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    ( 1416): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+D/MountService( 1590): volume state changed for /mnt/sdcard (checking -> mounted)
+D/VoldCmdListener( 1416): volume mount /mnt/sdcard-ext
+I/Vold    ( 1416): /dev/block/vold/179:33 being considered for volume sdcard-ext
+D/Vold    ( 1416): Volume sdcard-ext state changing 1 (Idle-Unmounted) -> 3 (Checking)
+D/KeyguardStatusView( 1590): lunar : 农历一月廿四
+I//system/bin/fsck_msdos( 1416): ** /dev/block/vold/179:33
+I//system/bin/fsck_msdos( 1416): ** Phase 1 - Read and Compare FATs
+I//system/bin/fsck_msdos( 1416): Attempting to allocate 472 KB for FAT
+I/CustomSpnReader( 1788): operatorNumberic = 11100
+I/CustomSpnReader( 1788): oriSpnName = null
+I/CustomSpnReader( 1788): operatorNumberic = 46003
+I/CustomSpnReader( 1788): oriSpnName = awesome club
+I/CustomSpnReader( 1788): Current language is : zh
+E/CustomSpnReader( 1788): Config File Path : /system/etc/spn-conf.xml
+D/MountService( 1590): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/sdcard (has extras) }
+D/MountService( 1590): volume state changed for /mnt/sdcard-ext (unmounted -> checking)
+I/StorageNotification( 1662): Media {/mnt/sdcard} state changed from {checking} -> {mounted} (primary = true)
+D/MountService( 1590): sendStorageIntent Intent { act=android.intent.action.MEDIA_CHECKING dat=file:///mnt/sdcard-ext (has extras) }
+I/StorageNotification( 1662): Media {/mnt/sdcard-ext} state changed from {unmounted} -> {checking} (primary = false)
+I//system/bin/fsck_msdos( 1416): Attempting to allocate 472 KB for FAT
+D/dalvikvm( 1788): GC_CONCURRENT freed 388K, 6% free 9624K/10183K, paused 2ms+2ms
+I//system/bin/fsck_msdos( 1416): ** Phase 2 - Check Cluster Chains
+I//system/bin/fsck_msdos( 1416): ** Phase 3 - Checking Directories
+I/CustomSpnReader( 1788): expression : /spnOverrides/spnOverride[@numeric='46003']
+I/CustomSpnReader( 1788): expression : /spnOverrides/spnOverride[@numeric='46003']/spn[@locale='zh']
+I/CustomSpnReader( 1788): got customSpnName from the locale : 中国电信
+D/dalvikvm( 1662): GC_FOR_ALLOC freed 497K, 7% free 11928K/12743K, paused 20ms
+I/ActivityThread( 2091): Pub com.android.calendar: com.android.providers.calendar.CalendarProvider2
+D/dalvikvm( 1590): GC_EXPLICIT freed 59K, 9% free 13057K/14343K, paused 2ms+4ms
+D/AlarmManagerService( 1590): Kernel timezone updated to -480 minutes west of GMT
+D/KeyguardStatusView( 1590): lunar : 农历一月廿四
+D/AlarmManagerService( 1590): Kernel timezone updated to -480 minutes west of GMT
+D/AlarmManagerService( 1590): Kernel timezone updated to -480 minutes west of GMT
+D/AlarmManagerService( 1590): Kernel timezone updated to -480 minutes west of GMT
+D/AlarmManagerService( 1590): Kernel timezone updated to -480 minutes west of GMT
+D/OtaStartupReceiver( 1788): onServiceStateChanged()...  new state = 0 home 中国电信  11100  CDMA-IS95B:5 CSS not supported 0 0 RoamInd=1 DefRoamInd=1 EmergOnly=false
+D/OtaStartupReceiver( 1788): call OtaUtils.maybeDoOtaCall after network is available
+D/OtaUtils( 1788): phoneNeedsActivation is set to false
+D/OtaUtils( 1788): otaShowActivationScreen: 1
+D/OtaUtils( 1788): maybeDoOtaCall: voice capable; activation NOT started.
+D/dalvikvm( 1803): GC_CONCURRENT freed 229K, 5% free 11237K/11719K, paused 1ms+1ms
+I/CustomSpnReader( 1788): operatorNumberic = 46000
+I/CustomSpnReader( 1788): oriSpnName = null
+I//system/bin/fsck_msdos( 1416): ** Phase 4 - Checking for Lost Files
+I//system/bin/fsck_msdos( 1416): 830 files, 2777472 free (86796 clusters)
+I/CustomSpnReader( 1788): operatorNumberic = 46003
+I/CustomSpnReader( 1788): oriSpnName = awesome club
+I/CustomSpnReader( 1788): Current language is : zh
+E/CustomSpnReader( 1788): Config File Path : /system/etc/spn-conf.xml
+D/dalvikvm( 1788): GC_CONCURRENT freed 492K, 7% free 9607K/10247K, paused 3ms+2ms
+I/CustomSpnReader( 1788): expression : /spnOverrides/spnOverride[@numeric='46003']
+I/CustomSpnReader( 1788): expression : /spnOverrides/spnOverride[@numeric='46003']/spn[@locale='zh']
+I/CustomSpnReader( 1788): got customSpnName from the locale : 中国电信
+V/AlarmClock( 1954): AlarmInitReceiver finished
+I/Vold    ( 1416): Filesystem check completed OK
+I/Vold    ( 1416): Device /dev/block/vold/179:33, target /mnt/sdcard-ext mounted @ /mnt/secure/staging
+D/Vold    ( 1416): Volume sdcard-ext state changing 3 (Checking) -> 4 (Mounted)
+D/MountService( 1590): volume state changed for /mnt/sdcard-ext (checking -> mounted)
+I/ActivityManager( 1590): Start proc com.android.email for broadcast com.android.email/.service.EmailBroadcastReceiver: pid=2114 uid=10016 gids={3003, 1015}
+D/MountService( 1590): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/sdcard-ext (has extras) }
+I/StorageNotification( 1662): Media {/mnt/sdcard-ext} state changed from {checking} -> {mounted} (primary = false)
+D/dalvikvm( 1590): GC_EXPLICIT freed 199K, 9% free 13122K/14343K, paused 2ms+6ms
+D/VoldCmdListener( 1416): asec list
+D/VoldCmdListener( 1416): asec path com.yingyonghui.market-1
+D/VoldCmdListener( 1416): asec path com.douban.artist-1
+D/VoldCmdListener( 1416): asec path com.douban.radio-1
+D/VoldCmdListener( 1416): asec path com.sds.android.ttpod-1
+D/VoldCmdListener( 1416): asec path com.sds.android.ttpod.skin.meilixin_91-1
+D/VoldCmdListener( 1416): asec path com.adobe.flashplayer-1
+D/VoldCmdListener( 1416): asec path com.tencent.mm-1
+D/VoldCmdListener( 1416): asec path com.weico-1
+D/VoldCmdListener( 1416): asec path com.sds.android.ttpod-2
+D/VoldCmdListener( 1416): asec path com.sds.android.ttpod.skin.meilixin_91-2
+D/VoldCmdListener( 1416): asec path net.dev123.yibo-1
+D/VoldCmdListener( 1416): asec path com.android.myics-2
+D/VoldCmdListener( 1416): asec path com.android.TabSlide-2
+D/VoldCmdListener( 1416): asec path com.zeptolab.ctr.paid-1
+D/VoldCmdListener( 1416): asec path com.android.HelloTabDemo-2
+D/VoldCmdListener( 1416): asec path obg1.PhotafPro-1
+D/dalvikvm( 1662): GC_FOR_ALLOC freed 1041K, 11% free 11639K/12999K, paused 31ms
+W/PackageManager( 1590): Unknown permission com.android.vending.permission.UPDATE_MARKET_FAILURE in package com.android.vending.updater
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.tencent.qq (protectionLevel=2 flags=0xac44)
+W/PackageManager( 1590): Unknown permission com.tencent.permission.QUICK_OPTIMIZE in package com.tencent.qq
+W/PackageManager( 1590): Unknown permission com.tencent.permission.VIRUS_SCAN in package com.tencent.qq
+W/PackageManager( 1590): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager( 1590): Unknown permission com.android.vending.billing.IBillingAccountService.BIND2 in package com.google.android.gsf.login
+W/PackageManager( 1590): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.tencent.mobileqq (protectionLevel=2 flags=0xbe44)
+W/PackageManager( 1590): Unknown permission android.permission.READ_OWNER_DATA in package com.google.android.setupwizard
+W/PackageManager( 1590): Unknown permission android.permission.WRITE_OWNER_DATA in package com.google.android.setupwizard
+W/PackageManager( 1590): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.android.videoeditor
+W/PackageManager( 1590): Not granting permission com.google.android.gm.permission.READ_GMAIL to package com.google.android.apps.uploader (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 1590): Unknown permission com.google.android.voicesearch.SHORTCUTS_ACCESS in package com.google.android.googlequicksearchbox
+I/ActivityThread( 2114): Pub com.android.email.provider;com.android.email.notifier: com.android.email.provider.EmailProvider
+W/PackageManager( 1590): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.android.vending
+W/PackageManager( 1590): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.vending (protectionLevel=2 flags=0xabe45)
+W/PackageManager( 1590): Not granting permission android.permission.ACCOUNT_MANAGER to package com.google.android.music (protectionLevel=2 flags=0x8be65)
+W/PackageManager( 1590): Unknown permission com.google.android.voicesearch.AUDIO_FILE_ACCESS in package com.google.android.gm
+W/PackageManager( 1590): Unknown permission com.android.providers.im.permission.READ_ONLY in package com.google.android.apps.maps
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 1590): Not granting permission android.permission.DEVICE_POWER to package com.android.facelock (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 1590): Unknown permission android.permission.VIBRATION in package com.baidu.input
+I/ActivityThread( 2114): Pub com.android.email.attachmentprovider: com.android.email.provider.AttachmentProvider
+D/dalvikvm( 1662): GC_CONCURRENT freed 684K, 10% free 11743K/12999K, paused 1ms+3ms
+F/NetworkStats( 1590): problem reading network stats
+F/NetworkStats( 1590): java.lang.IllegalStateException: problem parsing idx 1
+F/NetworkStats( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:300)
+F/NetworkStats( 1590): 	at com.android.server.NetworkManagementService.getNetworkStatsUidDetail(NetworkManagementService.java:1282)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.performPollLocked(NetworkStatsService.java:831)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.updateIfacesLocked(NetworkStatsService.java:743)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.updateIfaces(NetworkStatsService.java:721)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.access$000(NetworkStatsService.java:128)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService$8.handleMessage(NetworkStatsService.java:1633)
+F/NetworkStats( 1590): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+F/NetworkStats( 1590): 	at android.os.Looper.loop(Looper.java:137)
+F/NetworkStats( 1590): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+F/NetworkStats( 1590): Caused by: java.io.FileNotFoundException: /proc/net/xt_qtaguid/stats: open failed: ENOENT (No such file or directory)
+F/NetworkStats( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:406)
+F/NetworkStats( 1590): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+F/NetworkStats( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:269)
+F/NetworkStats( 1590): 	... 9 more
+F/NetworkStats( 1590): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+F/NetworkStats( 1590): 	at libcore.io.Posix.open(Native Method)
+F/NetworkStats( 1590): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+F/NetworkStats( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+F/NetworkStats( 1590): 	... 11 more
+W/PackageManager( 1590): Container obg1.PhotafPro-1 is stale
+W/PackageManager( 1590): Container com.tencent.mm-1 is stale
+W/PackageManager( 1590): Container net.dev123.yibo-1 is stale
+W/PackageManager( 1590): Container com.weico-1 is stale
+W/PackageManager( 1590): Container com.sds.android.ttpod-2 is stale
+W/PackageManager( 1590): Container com.sds.android.ttpod-1 is stale
+W/PackageManager( 1590): Container com.zeptolab.ctr.paid-1 is stale
+W/PackageManager( 1590): Container com.android.HelloTabDemo-2 is stale
+W/PackageManager( 1590): Container com.adobe.flashplayer-1 is stale
+W/PackageManager( 1590): Container com.android.myics-2 is stale
+W/PackageManager( 1590): Container com.sds.android.ttpod.skin.meilixin_91-1 is stale
+W/PackageManager( 1590): Container com.yingyonghui.market-1 is stale
+W/PackageManager( 1590): Container com.sds.android.ttpod.skin.meilixin_91-2 is stale
+W/PackageManager( 1590): Container com.douban.radio-1 is stale
+W/PackageManager( 1590): Container com.android.TabSlide-2 is stale
+W/PackageManager( 1590): Container com.douban.artist-1 is stale
+I/ActivityManager( 1590): Start proc com.android.exchange for service com.android.exchange/.ExchangeService: pid=2132 uid=10017 gids={3003, 1015}
+D/Tethering( 1590): MasterInitialState.processMessage what=3
+D/dalvikvm( 1803): GC_CONCURRENT freed 339K, 5% free 11498K/12103K, paused 2ms+2ms
+I/CalendarProvider2( 2091): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+W/ContentResolver( 2091): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+D/GpsLocationProvider( 1590): NTP server returned: 1329239668146 (Wed Feb 15 01:14:28 格林尼治标准时间+0800 2012) reference: 28576 certainty: 26 system time offset: -14122
+D/libgps  ( 1590): GpsInterface_inject_time( 1329239668146, 28576, 26 )
+I/ActivityThread( 2132): Pub com.android.exchange.directory.provider: com.android.exchange.provider.ExchangeDirectoryProvider
+F/NetworkStats( 1590): problem reading network stats
+F/NetworkStats( 1590): java.lang.IllegalStateException: problem parsing idx 1
+F/NetworkStats( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:300)
+F/NetworkStats( 1590): 	at com.android.server.NetworkManagementService.getNetworkStatsUidDetail(NetworkManagementService.java:1282)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.performPollLocked(NetworkStatsService.java:831)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.updateIfacesLocked(NetworkStatsService.java:743)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.updateIfaces(NetworkStatsService.java:721)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService.access$000(NetworkStatsService.java:128)
+F/NetworkStats( 1590): 	at com.android.server.net.NetworkStatsService$8.handleMessage(NetworkStatsService.java:1633)
+F/NetworkStats( 1590): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+F/NetworkStats( 1590): 	at android.os.Looper.loop(Looper.java:137)
+F/NetworkStats( 1590): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+F/NetworkStats( 1590): Caused by: java.io.FileNotFoundException: /proc/net/xt_qtaguid/stats: open failed: ENOENT (No such file or directory)
+F/NetworkStats( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:406)
+F/NetworkStats( 1590): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+F/NetworkStats( 1590): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:269)
+F/NetworkStats( 1590): 	... 9 more
+F/NetworkStats( 1590): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+F/NetworkStats( 1590): 	at libcore.io.Posix.open(Native Method)
+F/NetworkStats( 1590): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+F/NetworkStats( 1590): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+F/NetworkStats( 1590): 	... 11 more
+D/ExchangeService( 2132): !!! EAS ExchangeService, onCreate
+D/Eas Debug( 2132): Logging: 
+D/dalvikvm( 1803): GC_CONCURRENT freed 523K, 6% free 11751K/12487K, paused 5ms+2ms
+I/dalvikvm( 2156): Turning on JNI app bug workarounds for target SDK version 10...
+D/dalvikvm( 1422): GC_EXPLICIT freed 36K, 5% free 9082K/9475K, paused 2ms+2ms
+D/ExchangeService( 2132): !!! EAS ExchangeService, onStartCommand, startingUp = false, running = false
+I/ActivityManager( 1590): Start proc com.motorola.process.system for broadcast com.motorola.android.extdispservice/.ExtDispBootIntentReceiver: pid=2156 uid=1000 gids={1015, 3002, 3001, 3003}
+D/ExchangeService( 2132): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+D/ExchangeService( 2132): !!! EAS ExchangeService, onCreate
+D/ExchangeService( 2132): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 2ms+2ms
+D/ExchangeService( 2132): Received deviceId from Email app: androidc49761043
+D/ExchangeService( 2132): Reconciling accounts...
+D/ExchangeService( 2132): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 1ms+1ms
+D/Eas Debug( 2132): Logging: 
+D/ExtDispBootIntentReceiver( 2156): onReceive: ACTION_BOOT_COMPLETED
+I/dalvikvm( 1788): Could not find method android.telephony.TelephonyManager.isDormancyRejected, referenced from method com.motorola.fastdormancy.FastDormancyService.shouldDoFastDormancy
+W/dalvikvm( 1788): VFY: unable to resolve static method 30: Landroid/telephony/TelephonyManager;.isDormancyRejected ()Z
+D/dalvikvm( 1788): VFY: replacing opcode 0x71 at 0x0062
+D/FastDormancy( 1788): mccMnc[0]=310410
+D/FastDormancy( 1788): fdPollInterval[0]=3000
+D/ExtDispService( 2156): onCreate() is called.
+D/ExtDispJni( 2156): Try to load libextdisp.so
+E/ExtDispJni( 2156): Could not load libextdisp.so
+W/dalvikvm( 2156): No implementation found for native Lcom/motorola/android/extdispservice/ExtDispJni;.nativeInit (Ljava/lang/Object;)I
+D/AndroidRuntime( 2156): Shutting down VM
+W/dalvikvm( 2156): threadid=1: thread exiting with uncaught exception (group=0x409da1f8)
+E/AndroidRuntime( 2156): FATAL EXCEPTION: main
+E/AndroidRuntime( 2156): java.lang.UnsatisfiedLinkError: nativeInit
+E/AndroidRuntime( 2156): 	at com.motorola.android.extdispservice.ExtDispJni.nativeInit(Native Method)
+E/AndroidRuntime( 2156): 	at com.motorola.android.extdispservice.ExtDispJni.initialize(ExtDispJni.java:55)
+E/AndroidRuntime( 2156): 	at com.motorola.android.extdispservice.ExtDispService.onCreate(ExtDispService.java:219)
+E/AndroidRuntime( 2156): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/AndroidRuntime( 2156): 	at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/AndroidRuntime( 2156): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/AndroidRuntime( 2156): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2156): 	at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2156): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2156): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2156): 	at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2156): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:787)
+E/AndroidRuntime( 2156): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:554)
+E/AndroidRuntime( 2156): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager( 1590): Start proc com.android.mms for broadcast com.android.mms/.transaction.MmsSystemEventReceiver: pid=2183 uid=10026 gids={3003, 1015}
+D/dalvikvm( 1590): GC_CONCURRENT freed 878K, 8% free 13232K/14343K, paused 3ms+5ms
+I/ActivityThread( 2183): Pub mms_temp_file: com.android.mms.TempFileProvider
+I/ActivityThread( 2183): Pub com.android.mms.SuggestionsProvider: com.android.mms.SuggestionsProvider
+I/ActivityThread( 2183): Pub com.android.cm.mms: com.android.mms.templates.TemplatesProvider
+V/MmsConfig( 2183): mnc/mcc: 46003
+V/MmsConfig( 2183): tag: bool value: enabledMMS - true
+V/MmsConfig( 2183): tag: int value: maxMessageSize - 307200
+V/MmsConfig( 2183): tag: int value: maxImageHeight - 480
+V/MmsConfig( 2183): tag: int value: maxImageWidth - 640
+V/MmsConfig( 2183): tag: int value: defaultSMSMessagesPerThread - 500
+V/MmsConfig( 2183): tag: int value: defaultMMSMessagesPerThread - 50
+V/MmsConfig( 2183): tag: int value: minMessageCountPerThread - 10
+V/MmsConfig( 2183): tag: int value: maxMessageCountPerThread - 5000
+V/MmsConfig( 2183): tag: string value: uaProfUrl - http://www.google.com/oha/rdf/ua-profile-kila.xml
+V/MmsConfig( 2183): tag: int value: recipientLimit - -1
+V/MmsConfig( 2183): tag: int value: smsToMmsTextThreshold - 4
+V/MmsConfig( 2183): tag: bool value: enableMultipartSMS - true
+V/MmsConfig( 2183): tag: bool value: enableSlideDuration - true
+V/MmsConfig( 2183): tag: int value: maxMessageTextSize - -1
+D/ExchangeService( 2132): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+D/dalvikvm( 2114): GC_CONCURRENT freed 260K, 5% free 9300K/9735K, paused 3ms+3ms
+D/MmsSmsDatabaseHelper( 1788): [MmsSmsDb] tableName: threads hasAutoIncrement: CREATE TABLE threads (_id INTEGER PRIMARY KEY AUTOINCREMENT,date INTEGER DEFAULT 0,message_count INTEGER DEFAULT 0,recipient_ids TEXT,snippet TEXT,snippet_cs INTEGER DEFAULT 0,read INTEGER DEFAULT 1,type INTEGER DEFAULT 0,error INTEGER DEFAULT 0,has_attachment INTEGER DEFAULT 0) result: true
+D/MmsSmsDatabaseHelper( 1788): [MmsSmsDb] tableName: canonical_addresses hasAutoIncrement: CREATE TABLE canonical_addresses (_id INTEGER PRIMARY KEY AUTOINCREMENT,address TEXT) result: true
+D/MmsSmsDatabaseHelper( 1788): [getWritableDatabase] hasAutoIncrementThreads: true hasAutoIncrementAddresses: true
+D/dalvikvm( 1713): GC_CONCURRENT freed 220K, 5% free 9263K/9671K, paused 5ms+2ms
+D/dalvikvm( 1788): GC_CONCURRENT freed 455K, 7% free 9591K/10247K, paused 1ms+2ms
+D/CountryDetectorService( 1590): The first listener is added
+D/dalvikvm( 2183): GC_CONCURRENT freed 354K, 6% free 9223K/9735K, paused 2ms+1ms
+W/ActivityManager( 1590): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x10 } to com.android.musicfx requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+I/ActivityManager( 1590): Start proc com.google.android.talk for broadcast com.google.android.talk/.videochat.BootCompleteReceiver: pid=2209 uid=10036 gids={3003, 1015, 1006, 3002}
+D/libgps  ( 1590): GpsXtraInterface_inject_xtra_data( 0x4171C5B8, 38490 )
+D/rdsutil ( 1590): rds_file_open( xtra.bin ) = 0
+I/ActivityThread( 2209): Pub com.google.android.talk.SuggestionProvider: com.google.android.talk.SuggestionsProvider
+D/vclib:CallStateClient( 2209): startListening
+I/talk    ( 2209): Refresh the supporeted camera state
+W/ActivityManager( 1590): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x10 } to com.koushikdutta.rommanager requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+D/dalvikvm( 2209): GC_CONCURRENT freed 188K, 4% free 9387K/9735K, paused 2ms+1ms
+I/BootReceiver( 1737): Restore disabled by user preference.
+D/dalvikvm( 1699): GC_CONCURRENT freed 384K, 8% free 9710K/10503K, paused 1ms+3ms
+D/dalvikvm( 1737): GC_CONCURRENT freed 174K, 4% free 9292K/9671K, paused 1ms+3ms
+D/CAT     ( 1788): StkAppService$ServiceHandler: OP_BOOT_COMPLETED
+I/        ( 1514): odm_disp_cabc_thread running
+I/        ( 1514): odm_disp_cabc_thread is restarting err_cnt=2
+I/ActivityManager( 1590): Start proc com.cyanogenmod.settings.device for broadcast com.cyanogenmod.settings.device/.OnBoot: pid=2233 uid=1000 gids={1015, 3002, 3001, 3003}
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 363K, 8% free 13308K/14407K, paused 46ms
+V/CameraHAL( 1424): CameraHAL_GetCam_Info:
+V/NvOmxCamera( 1424): HAL_getCameraInfo ++
+D/CameraHAL( 1424): CameraHAL_GetCam_Info: id:0 faceing:0 orientation: 90
+V/CameraHAL( 1424): CameraHAL_GetCam_Info:
+V/NvOmxCamera( 1424): HAL_getCameraInfo ++
+D/CameraHAL( 1424): CameraHAL_GetCam_Info: id:1 faceing:1 orientation: 270
+I/talk    ( 2209): supported front camera true
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 123K, 9% free 13309K/14535K, paused 40ms
+I/dalvikvm-heap( 1590): Grow heap (frag case) to 13.269MB for 128638-byte allocation
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 86K, 9% free 13349K/14663K, paused 41ms
+D/Smack   ( 1699): [SSLXMPPConnection@1094728480] create socket connection(mtalk.google.com, 5228)
+I/ActivityManager( 1590): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UpdatePermissionsReceiver: pid=2253 uid=10043 gids={3003, 1015}
+I/dalvikvm( 2253): Turning on JNI app bug workarounds for target SDK version 11...
+D/dalvikvm( 1699): GC_CONCURRENT freed 366K, 8% free 9728K/10503K, paused 2ms+1ms
+I/ActivityThread( 2253): Pub com.noshufou.android.su.provider: com.noshufou.android.su.provider.PermissionsProvider
+D/Su.Util ( 2253): Start PermissionsDbService
+D/Su.PermissionsDbService( 2253): onHandleIntent()
+D/UsbReceiver( 1662): onReceive(), received intent -- android.intent.action.BOOT_COMPLETED
+D/MotUsbService( 1662): onCreate()
+D/Su.PermissionsDbService( 2253): permissions.sqlite opened
+I/ActivityManager( 1590): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=2270 uid=10048 gids={3002}
+D/Su.PermissionsDbService( 2253): got cursor from su.db
+D/Su.PermissionsDbService( 2253): row 2 dirty, handle it
+D/Su.PermissionsDbService( 2253): closing permissions.sqlite
+D/MotUsbService( 1662): -------------------------自定义界面
+I/usbd    ( 1504): main(): get event from usbd server fd
+I/usbd    ( 1504): main(): usbd_save_socket_fd ...
+I/usbd    ( 1504): usbd_send_adb_status(): Send ADB Enable message
+I/usbd    ( 1504): usbd_notify_current_status(): Notifying App with Current Status : usb_enumerated 
+D/UsbListener( 1662): handleEvent: usbd_adb_status_on
+D/UsbListener( 1662): handleEvent: usb_enumerated
+D/MotUsbService( 1662): usb state file location : 
+D/MotUsbService( 1662): handleAdbStateChange(true)
+D/MotUsbService( 1662): handleUsbCableEnumerate()
+D/MotUsbService( 1662): handleUsbEvent(), Received event: 1, current state: 0
+D/UsbSettings( 1662): USB mode (UI) : 2
+D/MotUsbService( 1662): Idle state, receive USB_CABLE_ENUMERATE_EVENT.
+D/dalvikvm( 2253): GC_CONCURRENT freed 335K, 6% free 9204K/9735K, paused 3ms+5ms
+D/Smack   ( 1699): [SSLXMPPConnection@1094728480] connected to mtalk.google.com, 5228
+D/dalvikvm( 1699): GC_CONCURRENT freed 308K, 7% free 9861K/10503K, paused 2ms+2ms
+V/SystemUpdateService( 1699): onStartCommand: launching task
+V/SystemUpdateService( 1699): UpdateTask.doInBackground
+D/dalvikvm( 1699): GC_FOR_ALLOC freed 116K, 7% free 9924K/10567K, paused 13ms
+I/SystemUpdateService( 1699): checking for post-install intent
+I/SystemUpdateService( 1699): cancelUpdate (empty URL)
+I/SystemUpdateService( 1699): cancelUpdate
+I/SystemUpdateService( 1699): removeAllDownloads (cancelUpdate)
+I/SystemUpdate.Download( 1699): removeAllDownloads
+D/StatsUploadService( 1699): Upload disabled
+I/ActivityManager( 1590): Start proc com.google.android.apps.genie.geniewidget for broadcast com.google.android.apps.genie.geniewidget/.miniwidget.MiniWidgetProvider: pid=2299 uid=10056 gids={3003, 1015}
+I/dalvikvm( 2299): Turning on JNI app bug workarounds for target SDK version 11...
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 144K, 9% free 13369K/14663K, paused 45ms
+I/dalvikvm-heap( 1590): Grow heap (frag case) to 13.388MB for 192952-byte allocation
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 128K, 10% free 13429K/14855K, paused 38ms
+I/ActivityManager( 1590): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1699
+D/PermissionCache( 1421): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (1022 us)
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 199K, 10% free 13449K/14855K, paused 39ms
+W/NetworkManagementSocketTagger( 1590): setKernelCountSet(10054, 1) failed with errno -2
+I/ActivityManager( 1590): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateDownloadDialog} from pid 1699
+V/SystemUpdateService( 1699): onPostExecute: false
+V/SystemUpdateService( 1699): shutting down service
+I/ActivityThread( 2299): Pub com.google.android.apps.genie.geniewidget.weather: com.google.android.apps.genie.geniewidget.providers.WeatherProvider
+I/ActivityThread( 2299): Pub com.google.android.apps.genie.geniewidget.newsimage: com.google.android.apps.genie.geniewidget.providers.NewsImageProvider
+I/ActivityManager( 1590): Displayed com.cyanogenmod.trebuchet/.Launcher: +9s468ms
+W/NetworkManagementSocketTagger( 1590): setKernelCountSet(10054, 0) failed with errno -2
+I/ActivityManager( 1590): No longer want com.google.android.gsf.login (pid 1683): hidden #16
+D/Smack   ( 1699): [SSLXMPPConnection@1094728480] [XMPPConn] login: got servicename from response: mcs.android.com
+D/Smack   ( 1699): [SSLXMPPConnection@1094728480] [XMPPConn] login: authenticated
+D/dalvikvm( 1699): GC_CONCURRENT freed 503K, 7% free 9871K/10567K, paused 2ms+3ms
+W/Genie   ( 2299): Cache file not found: java.io.FileNotFoundException: /data/data/com.google.android.apps.genie.geniewidget/cache/genie_masfcache: open failed: ENOENT (No such file or directory)
+W/Genie   ( 2299): Cache file not found: java.io.FileNotFoundException: /data/data/com.google.android.apps.genie.geniewidget/cache/genie_iconcache: open failed: ENOENT (No such file or directory)
+D/dalvikvm( 2299): GC_CONCURRENT freed 348K, 6% free 9235K/9735K, paused 4ms+2ms
+W/CursorWrapperInner( 2299): Cursor finalized without prior close()
+W/CursorWrapperInner( 2299): Cursor finalized without prior close()
+I/ActivityManager( 1590): Start proc com.google.android.gm for broadcast com.google.android.gm/.MailIntentReceiver: pid=2328 uid=10063 gids={3003, 1015}
+I/ActivityManager( 1590): No longer want com.google.android.partnersetup (pid 1935): hidden #16
+I/ActivityThread( 2328): Pub gmail-ls: com.google.android.gm.provider.MailProvider
+I/ActivityThread( 2328): Pub com.google.android.gmail.SuggestionProvider: com.google.android.gm.SuggestionsProvider
+D/dalvikvm( 1590): GC_FOR_ALLOC freed 725K, 11% free 13315K/14855K, paused 55ms
+I/ActivityManager( 1590): No longer want android.process.acore (pid 1910): hidden #16
+I/ActivityManager( 1590): Start proc com.google.android.onetimeinitializer for broadcast com.google.android.onetimeinitializer/.OneTimeInitializerReceiver: pid=2349 uid=10064 gids={}
+I/ActivityManager( 1590): Start proc com.google.android.gsf.login for service com.google.android.gsf.login/com.google.android.gsf.loginservice.GoogleLoginService: pid=2363 uid=10054 gids={3003, 1015, 1007, 2001, 3006}
+V/OneTimeInitializerReceiver( 2349): OneTimeInitializerReceiver.onReceive
+V/OneTimeService( 2349): OneTimeService.onHandleIntent
+I/ActivityManager( 1590): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.GooglePartnerSetup: pid=2378 uid=10065 gids={3003}
+I/ActivityManager( 1590): No longer want com.android.contacts (pid 2027): hidden #16
+D/dalvikvm( 1590): GC_EXPLICIT freed 148K, 11% free 13250K/14855K, paused 3ms+4ms
+I/ActivityThread( 2378): Pub com.google.android.partnersetup.rlzprovider: com.google.android.partnersetup.RlzProvider
+I/ActivityThread( 2378): Pub com.google.android.partnersetup.rlzappprovider: com.google.android.partnersetup.RlzAppProvider
+D/dalvikvm( 2378): GC_CONCURRENT freed 351K, 6% free 9173K/9735K, paused 1ms+2ms
+I/dalvikvm( 2400): Turning on JNI app bug workarounds for target SDK version 8...
+I/ActivityManager( 1590): Start proc com.tencent.mobileqq:sc for broadcast com.tencent.mobileqq/com.tencent.sc.app.QCBroadcastReceiver: pid=2400 uid=10069 gids={3003, 1006, 1015}
+D/dalvikvm( 1422): GC_EXPLICIT freed 38K, 5% free 9082K/9475K, paused 2ms+2ms
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 1ms+2ms
+D/ConnectivityService( 1590): handleInetConditionHoldEnd: net=1, condition=100, published condition=0
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 2ms+2ms
+I/RlzPingService( 2378): Setting next ping for 1329844486844
+D/dalvikvm( 2400): GC_CONCURRENT freed 174K, 4% free 9413K/9735K, paused 3ms+1ms
+I/ActivityManager( 1590): No longer want com.cyanogenmod.stats (pid 2074): hidden #16
+D/dalvikvm( 2328): GC_CONCURRENT freed 262K, 5% free 9301K/9735K, paused 4ms+2ms
+I/Gmail   ( 2328): calculateUnknownSyncRationalesAndPurgeInBackground: queueing
+I/Gmail   ( 2328): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://gmail-ls/unread/^iim (has extras) }
+I/Gmail   ( 2328): calculateUnknownSyncRationalesAndPurgeInBackground: queueing
+I/Gmail   ( 2328): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://gmail-ls/unread/^i (has extras) }
+I/ActivityManager( 1590): No longer want com.android.deskclock (pid 1954): hidden #16
+I/Gmail   ( 2328): calculateUnknownSyncRationalesAndPurgeInBackground: running
+I/Gmail   ( 2328): calculateUnknownSyncRationalesAndPurgeInBackground: running
+I/ActivityThread( 2400): Pub qc.friendfeed: com.tencent.sc.content.FriendFeedProvider
+I/ActivityThread( 2400): Pub qc.profile: com.tencent.sc.content.ProfileProvider
+I/ActivityThread( 2400): Pub qc.remindfeed: com.tencent.sc.content.RemindFeedProvider
+I/ActivityThread( 2400): Pub qc.messagerecord: com.tencent.sc.content.MessageRecordProvider
+D/dalvikvm( 2400): Trying to load lib /data/data/com.tencent.mobileqq/lib/libcodecwrapper.so 0x412e1d30
+D/dalvikvm( 2400): Added shared lib /data/data/com.tencent.mobileqq/lib/libcodecwrapper.so 0x412e1d30
+D/dalvikvm( 2400): Trying to load lib /data/data/com.tencent.mobileqq/lib/libmsfboot.so 0x412e1d30
+I/ActivityManager( 1590): Start proc com.tencent.mobileqq for service com.tencent.mobileqq/.service.MobileQQService: pid=2418 uid=10069 gids={3003, 1006, 1015}
+D/dalvikvm( 2400): Added shared lib /data/data/com.tencent.mobileqq/lib/libmsfboot.so 0x412e1d30
+I/dalvikvm( 2418): Turning on JNI app bug workarounds for target SDK version 8...
+I/ActivityManager( 1590): No longer want com.android.providers.calendar (pid 2091): hidden #16
+D/dalvikvm( 2418): GC_CONCURRENT freed 149K, 4% free 9438K/9735K, paused 2ms+2ms
+D/dalvikvm( 2400): GC_CONCURRENT freed 274K, 5% free 9594K/10055K, paused 2ms+2ms
+I/ActivityThread( 2418): Pub qq.message: com.tencent.mobileqq.content.MessageProvider
+I/ActivityThread( 2418): Pub qq.friendlist: com.tencent.mobileqq.content.FriendListProvider
+I/ActivityThread( 2418): Pub qq.profile: com.tencent.mobileqq.content.ProfileProvider
+D/dalvikvm( 2418): Trying to load lib /data/data/com.tencent.mobileqq/lib/libcodecwrapper.so 0x412d8890
+D/dalvikvm( 2418): Added shared lib /data/data/com.tencent.mobileqq/lib/libcodecwrapper.so 0x412d8890
+D/dalvikvm( 2418): Trying to load lib /data/data/com.tencent.mobileqq/lib/libmsfboot.so 0x412d8890
+D/dalvikvm( 2418): Added shared lib /data/data/com.tencent.mobileqq/lib/libmsfboot.so 0x412d8890
+I/ActivityManager( 1590): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=2439 uid=10071 gids={3003, 1015}
+I/dalvikvm( 2439): Turning on JNI app bug workarounds for target SDK version 13...
+D/AudioHardwareMot( 1424): bufSize = 8192
+D/dalvikvm( 2439): GC_CONCURRENT freed 155K, 4% free 9431K/9735K, paused 2ms+1ms
+D/dalvikvm( 2418): GC_CONCURRENT freed 280K, 5% free 9617K/10055K, paused 2ms+2ms
+E/CursorWindow( 2418): Failed to read row 0, column -1 from a CursorWindow which has 5 rows, 1 columns.
+E/CursorWindow( 2418): Failed to read row 1, column -1 from a CursorWindow which has 5 rows, 1 columns.
+E/CursorWindow( 2418): Failed to read row 2, column -1 from a CursorWindow which has 5 rows, 1 columns.
+E/CursorWindow( 2418): Failed to read row 3, column -1 from a CursorWindow which has 5 rows, 1 columns.
+E/CursorWindow( 2418): Failed to read row 4, column -1 from a CursorWindow which has 5 rows, 1 columns.
+D/dalvikvm( 2418): GC_CONCURRENT freed 178K, 4% free 9910K/10311K, paused 2ms+2ms
+D/dalvikvm( 2418): GC_CONCURRENT freed 181K, 4% free 10235K/10631K, paused 2ms+3ms
+D/*GIPS*  ( 2418): Loading GIPSVEAndroidJavaWrapper...
+D/dalvikvm( 2418): Trying to load lib /data/data/com.tencent.mobileqq/lib/libVideoCtrl.so 0x412d8890
+D/dalvikvm( 2418): Added shared lib /data/data/com.tencent.mobileqq/lib/libVideoCtrl.so 0x412d8890
+D/*GIPS*  ( 2418): Loading GIPSVEAndroidJavaWrapper Succeed...
+D/dalvikvm( 2439): GC_CONCURRENT freed 123K, 3% free 9766K/10055K, paused 1ms+3ms
+I/ActivityManager( 1590): Start proc com.google.android.apps.maps:NetworkLocationService for service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService: pid=2464 uid=10071 gids={3003, 1015}
+D/dalvikvm( 2418): GC_CONCURRENT freed 172K, 4% free 10554K/10951K, paused 1ms+3ms
+I/dalvikvm( 2464): Turning on JNI app bug workarounds for target SDK version 13...
+I/ActivityManager( 1590): Start proc com.android.deskclock for broadcast com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider: pid=2477 uid=10013 gids={}
+I/ActivityManager( 1590): No longer want com.android.exchange (pid 2132): hidden #16
+I/ActivityThread( 2477): Pub com.android.deskclock: com.android.deskclock.AlarmProvider
+I/ActivityManager( 1590): No longer want com.android.email (pid 2114): hidden #16
+I/ActivityManager( 1590): Start proc com.android.calendar for broadcast com.android.calendar/.widget.CalendarAppWidgetService$CalendarFactory: pid=2490 uid=10007 gids={3003}
+D/dalvikvm( 2464): GC_CONCURRENT freed 158K, 4% free 9429K/9735K, paused 4ms+1ms
+D/dalvikvm( 2418): Trying to load lib /data/data/com.tencent.mobileqq/lib/liblbs.so 0x412d8890
+D/dalvikvm( 2418): Added shared lib /data/data/com.tencent.mobileqq/lib/liblbs.so 0x412d8890
+D/dalvikvm( 2418): No JNI_OnLoad found in /data/data/com.tencent.mobileqq/lib/liblbs.so 0x412d8890, skipping init
+D/dalvikvm( 2418): Trying to load lib /data/data/com.tencent.mobileqq/lib/libVideoCtrl.so 0x412d8890
+D/dalvikvm( 2418): Shared lib '/data/data/com.tencent.mobileqq/lib/libVideoCtrl.so' already loaded in same CL 0x412d8890
+I/ActivityThread( 2490): Pub com.android.calendar.CalendarRecentSuggestionsProvider: com.android.calendar.CalendarRecentSuggestionsProvider
+I/ActivityManager( 1590): Start proc com.android.providers.calendar for content provider com.android.providers.calendar/.CalendarProvider2: pid=2512 uid=10008 gids={3003, 1015}
+I/ActivityManager( 1590): No longer want com.android.mms (pid 2183): hidden #16
+D/CountryDetectorService( 1590): No listener is left
+I/ActivityThread( 2512): Pub com.android.calendar: com.android.providers.calendar.CalendarProvider2
+D/dalvikvm( 2464): GC_CONCURRENT freed 180K, 4% free 9789K/10119K, paused 2ms+2ms
+V/AlarmClock( 2477): AlarmInitReceiver finished
+D/StatsUploadService( 1699): Upload disabled
+I/ActivityManager( 1590): Start proc com.tencent.qq for broadcast com.tencent.qq/.HippoStartupIntentReceiver: pid=2534 uid=10067 gids={3003, 1006, 1015}
+I/dalvikvm( 2534): Turning on JNI app bug workarounds for target SDK version 3...
+I/ActivityManager( 1590): No longer want com.google.android.talk (pid 2209): hidden #16
+D/dalvikvm( 2464): GC_CONCURRENT freed 173K, 4% free 10178K/10503K, paused 1ms+2ms
+I/ActivityThread( 2534): Pub com.tencent.qq.SearchContentProvider: com.tencent.qq.SearchContentProvider
+D/MediaScannerReceiver( 1713): action: android.intent.action.MEDIA_MOUNTED path: /mnt/sdcard
+D/dalvikvm( 2464): GC_CONCURRENT freed 696K, 9% free 9919K/10823K, paused 2ms+1ms
+I/ActivityManager( 1590): Start proc com.google.android.apps.uploader for broadcast com.google.android.apps.uploader/.ConnectivityBroadcastReceiver: pid=2553 uid=10050 gids={3003}
+I/dalvikvm( 2553): Turning on JNI app bug workarounds for target SDK version 11...
+I/ActivityThread( 2553): Pub com.google.android.apps.uploader: com.google.android.apps.uploader.UploadsContentProvider
+I/ActivityThread( 2553): Pub com.google.photos.provider.Album: com.google.android.apps.uploader.clients.picasa.AlbumProvider
+D/MediaUploader( 2553): UploaderApplication.onCreate
+D/MediaUploader( 2553): nonWifiLimit=20971520, default=20971520
+I/MediaUploader( 2553): No need to wake up
+V/AlarmClock( 2477): AlarmInitReceiver finished
+D/MediaScannerReceiver( 1713): action: android.intent.action.MEDIA_MOUNTED path: /mnt/sdcard-ext
+I/MediaUploader( 2553): No need to wake up
+I/ActivityManager( 1590): Start proc com.cyanogenmod.stats for broadcast com.cyanogenmod.stats/.ReportingServiceManager: pid=2572 uid=10005 gids={3003}
+D/CMStats ( 2572): CONNECTIVITY_ACTION: noConnectivity = false
+D/CMStats ( 2572): CONNECTIVITY_ACTION: starting service
+D/CMStats ( 2572): User has opted in -- reporting.
+D/CMStats ( 2572): SERVICE: Device ID=9103B90B66088F48491403729DB05603
+D/CMStats ( 2572): SERVICE: Device Name=sunfire
+D/CMStats ( 2572): SERVICE: Device Version=9.0.0-RC0-Sunfire-KANG
+D/CMStats ( 2572): SERVICE: Country=cn
+D/CMStats ( 2572): SERVICE: Carrier=中国电信
+D/CMStats ( 2572): SERVICE: Carrier ID=46000
+I/MediaUploader( 2553): No need to wake up
+D/dalvikvm( 1699): GC_EXPLICIT freed 275K, 7% free 9890K/10567K, paused 2ms+3ms
+D/StatsUploadService( 1699): Upload disabled
+I/ActivityManager( 1590): Start proc com.google.android.music:main for broadcast com.google.android.music/.store.MediaStoreImportService$Receiver: pid=2593 uid=10028 gids={3003, 1015}
+I/ActivityThread( 2593): Pub com.google.android.music.MusicContent: com.google.android.music.store.MusicContentProvider
+D/dalvikvm( 2512): GC_CONCURRENT freed 325K, 6% free 9204K/9735K, paused 3ms+2ms
+D/dalvikvm( 2593): GC_CONCURRENT freed 190K, 4% free 9352K/9735K, paused 1ms+1ms
+I/MusicStore( 2593): Database version: 37
+I/AsyncCursor1:1( 2593): Initialized for content://com.google.android.music.MusicContent/playlists, proj:_id#name, sel: 'null', args: null, order: null
+I/ActivityManager( 1590): No longer want com.android.settings (pid 1737): hidden #16
+I/ActivityManager( 1590): Start proc com.google.android.talk for broadcast com.google.android.talk/.McsConnectionStartedReceiver: pid=2612 uid=10036 gids={3003, 1015, 1006, 3002}
+D/dalvikvm( 1422): GC_EXPLICIT freed 37K, 5% free 9082K/9475K, paused 1ms+2ms
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 2ms+2ms
+D/dalvikvm( 1590): GC_CONCURRENT freed 852K, 11% free 13352K/14855K, paused 2ms+4ms
+D/MusicStore( 2593): Disabled WAL
+D/MusicStore( 2593): Database opened
+D/dalvikvm( 1422): GC_EXPLICIT freed <1K, 5% free 9082K/9475K, paused 1ms+1ms
+I/ActivityThread( 2612): Pub com.google.android.talk.SuggestionProvider: com.google.android.talk.SuggestionsProvider
+D/dalvikvm( 1590): GC_EXPLICIT freed 131K, 11% free 13318K/14855K, paused 2ms+6ms
+D/dalvikvm( 2612): GC_CONCURRENT freed 180K, 5% free 9346K/9735K, paused 2ms+2ms
+D/vclib:CallStateClient( 2612): startListening
+I/talk    ( 2612): onMcsConnectionStarted
+I/ActivityManager( 1590): Start proc com.google.android.apps.maps:LocationFriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.reporting.LocationReportingIntentReceiver: pid=2642 uid=10071 gids={3003, 1015}
+I/ActivityManager( 1590): No longer want com.cyanogenmod.settings.device (pid 2233): hidden #16
+I/dalvikvm( 2642): Turning on JNI app bug workarounds for target SDK version 13...
+I/CalendarProvider2( 2512): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+W/ContentResolver( 2512): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+I/ActivityManager( 1590): No longer want com.noshufou.android.su (pid 2253): hidden #16
+D/dalvikvm( 2642): GC_CONCURRENT freed 153K, 4% free 9434K/9735K, paused 3ms+2ms
+I/ActivityManager( 1590): No longer want com.android.voicedialer (pid 2270): hidden #16
+D/CMStats ( 2572): SERVICE: setting checkedin=true
+I/ActivityManager( 1590): No longer want com.google.android.apps.genie.geniewidget (pid 2299): hidden #16
+I/System.out( 2464): [INFO:2780]: c: Running flush
+I/System.out( 2464): [INFO:2851]: c: Sending payload [bytes=387]
+I/ActivityManager( 1590): Start proc android.process.acore for content provider com.android.providers.contacts/.ContactsProvider2: pid=2665 uid=10000 gids={3003, 1015}
+I/ActivityManager( 1590): No longer want com.google.android.onetimeinitializer (pid 2349): hidden #16
+I/ActivityThread( 2665): Pub com.android.voicemail: com.android.providers.contacts.VoicemailContentProvider
+I/ActivityThread( 2665): Pub user_dictionary: com.android.providers.userdictionary.UserDictionaryProvider
+I/ActivityThread( 2665): Pub com.android.social: com.android.providers.contacts.SocialProvider
+I/ActivityThread( 2665): Pub applications: com.android.providers.applications.ApplicationsProvider
+I/ActivityThread( 2665): Pub contacts;com.android.contacts: com.android.providers.contacts.ContactsProvider2
+D/dalvikvm( 2665): GC_CONCURRENT freed 350K, 6% free 9237K/9735K, paused 2ms+1ms
+I/ActivityThread( 2665): Pub call_log: com.android.providers.contacts.CallLogProvider
+D/MediaStoreImportService( 2593): Handle action: MediaStoreImportService.import_pending
+D/MediaStoreImportService( 2593): onDestroy
+D/dalvikvm( 2665): GC_CONCURRENT freed 236K, 5% free 9491K/9927K, paused 2ms+2ms
+D/dalvikvm( 1699): GC_CONCURRENT freed 343K, 6% free 9949K/10567K, paused 3ms+3ms
+I/        ( 1514): odm_disp_cabc_thread running
+I/        ( 1514): odm_disp_cabc_thread is restarting err_cnt=3
+I/System.out( 2464): [INFO:7852]: c: Running delayed flush
+I/System.out( 2464): [INFO:7865]: c: Running flush
+I/System.out( 2464): [INFO:7870]: c: Sending payload [bytes=67]
+D/dalvikvm( 2612): GC_CONCURRENT freed 399K, 6% free 9401K/9991K, paused 3ms+1ms
+D/dalvikvm( 1713): GC_CONCURRENT freed 392K, 7% free 9266K/9863K, paused 2ms+1ms
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 406K, 7% free 9251K/9927K, paused 31ms
+D/dalvikvm( 1713): GC_CONCURRENT freed 4K, 7% free 9262K/9927K, paused 2ms+5ms
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 363K, 7% free 9253K/9927K, paused 24ms
+I/dalvikvm( 1590): Jit: resizing JitTable from 4096 to 8192
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 367K, 7% free 9257K/9927K, paused 22ms
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 365K, 7% free 9260K/9927K, paused 52ms
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 365K, 7% free 9263K/9927K, paused 28ms
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 367K, 7% free 9266K/9927K, paused 30ms
+D/KeyguardStatusView( 1590): lunar : 农历一月廿四
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 367K, 7% free 9269K/9927K, paused 26ms
+D/dalvikvm( 1713): GC_FOR_ALLOC freed 367K, 7% free 9272K/9927K, paused 27ms
+D/        ( 1514): NVRM_DAEMON(479): queue_dispatch_thread() running
+I/nvrm_daemon( 1502): NVRM_DAEMON(479): queue_dispatch_thread() running
+D/dalvikvm( 1713): GC_CONCURRENT freed 451K, 8% free 9269K/9991K, paused 3ms+2ms
+W/ActivityManager( 1590): Timeout executing service: ServiceRecord{41705f78 com.motorola.android.extdispservice/.ExtDispService}
+I/ActivityManager( 1590): Crashing app skipping ANR: ProcessRecord{416ffd80 2156:com.motorola.process.system/1000} Executing service com.motorola.android.extdispservice/.ExtDispService
+D/rdsutil ( 1590): rds_file_close( 0 ) = 0
+D/dalvikvm( 1713): GC_CONCURRENT freed 359K, 7% free 9296K/9991K, paused 4ms+2ms
+W/MediaScanner( 1713): Error opening directory '/mnt/sdcard/.android_secure/', skipping: Permission denied.
+D/dalvikvm( 1713): GC_CONCURRENT freed 366K, 7% free 9314K/9991K, paused 3ms+3ms
+I/        ( 1514): odm_disp_cabc_thread running
+I/        ( 1514): odm_disp_cabc_thread is restarting err_cnt=4

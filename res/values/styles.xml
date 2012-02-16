@@ -3,4 +3,9 @@
     <style name="UsbDialog" parent="android:style/Theme.Holo.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
+
+    <!-- "Notification End" button; similar to InCallButton. Lp add -->
+    <style name="NotificationButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
 </resources>
